@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a14orkide" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Orkide Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Orkideler (Orchidaceae), güzellikleri ve zarif çiçekleriyle tanınan bitkilerdir. Balkonda orkide yetiştirmek için aşağıdaki adımları izleyebilirsiniz:\n\nSaksı Seçimi: Orkide kökleri hava almayı sever, bu yüzden hava geçirgenliği yüksek saksılar kullanmalısınız. Genellikle orkide saksıları delikli ve plastik ya da şeffaf materyallerden yapılır. Şeffaf saksılar, köklerin durumunu gözlemlemenizi sağlar.\n\n Toprak: Orkideler, özel orkide karışımı topraklarda yetiştirilir. Bu karışımlar genellikle çam kabuğu, perlit ve sphagnum yosunu içerir. Bu tür topraklar iyi drene olur ve orkide köklerinin hava almasını sağlar. Bahçe toprağı yerine orkide için formüle edilmiş karışımları tercih etmelisiniz.\n\nIşık: Orkideler bol ancak doğrudan güneş ışığı istemez. Günde 4-6 saat dolaylı ışık alabileceği bir konumda yetiştirilmelidir. Güney veya doğu yönlü bir balkon ideal olabilir, ancak doğrudan güneş ışığından korunmalıdır. Güneş ışığı, orkide çiçeklerinin sağlıklı büyümesini ve rengini korumasını sağlar.\n\nSulama: Orkide kökleri aşırı sulamadan zarar görebilir. Toprağın üst kısmı kurudukça sulama yapmalısınız. Genellikle haftada bir veya köklerin görünüşüne göre sulama yapılabilir. Sulama sırasında, suyun saksının altından çıkmasına dikkat edin ve suyun bitkinin köklerinde birikmesini önleyin.\n\nNem: Orkideler yüksek nem seviyelerini sever. Balkonda nemi artırmak için saksının altına bir tepsiye su koyabilirsiniz veya haftada bir defa su püskürterek nem seviyesini artırabilirsiniz. Ancak, suyun orkidenin yapraklarına düşmemesine dikkat edin çünkü bu mantar hastalıklarına yol açabilir.\n\nGübreleme: Orkideler düzenli gübrelemeye ihtiyaç duyar, ancak aşırı gübrelemeden kaçınılmalıdır. İlkbahar ve yaz aylarında, her 2-4 haftada bir, orkide için formüle edilmiş dengeli bir gübre kullanılabilir. Kış aylarında gübreleme sıklığını azaltabilirsiniz.\n\nSıcaklık: Orkideler 15-25°C sıcaklık aralığında iyi gelişir. Gündüz sıcaklıkları daha yüksek, gece sıcaklıkları ise daha düşük olmalıdır. Sıcaklık dalgalanmaları orkidelerin sağlıklı büyümesine yardımcı olabilir.\n\nHava Akışı: Orkideler iyi hava akışına ihtiyaç duyar. Balkon ortamında iyi bir hava akışı sağlamak için bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Havanın sıkışması mantar ve bakteriyel hastalıklara yol açabilir.\n\nÇiçeklenme ve Budama: Orkidelerin çiçeklenme süresi türüne göre değişir. Çiçekler solduktan sonra, ölü çiçek saplarını kesebilirsiniz. Ancak, çiçek sapı tamamen kuruduğunda, sapı kökten kesmek yerine, 1-2 cm yukarıdan kesmek yeni tomurcukların oluşmasına yardımcı olabilir.\n\nEk İpuçları:\nOrkide köklerinin düzenli olarak kontrol edilmesi gerekir. Kuru veya çürümüş kökleri temizlemek ve sağlıklı kökleri korumak bitkinin genel sağlığı için önemlidir.\nBalkonda orkideleri korumak için şiddetli rüzgar ve aşırı sıcaklıklardan uzak tutun. Özellikle yaz aylarında, orkideyi doğrudan güneşten ve sıcak rüzgarlardan koruyacak şekilde yerleştirin.\nOrkide yetiştirirken sabırlı ve dikkatli olmak önemlidir. Doğru bakım ve uygun ortam ile orkideleriniz sağlıklı ve uzun süre güzel çiçekler açabilir."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

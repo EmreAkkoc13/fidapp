@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a25dereotu" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Dereotu Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Dereotu için geniş ve derin bir saksı tercih edilmelidir. Köklerinin rahatça büyüyebileceği bir alan sağlamak için saksının en az 20-30 cm derinliğinde olması gerekir. Drenaj deliklerine sahip bir saksı seçmek önemlidir, çünkü suyun birikmesi kök çürümesine neden olabilir.\n\nToprak: Dereotu hafif ve iyi drene olan toprakları sever. Toprak karışımında bahçe toprağına perlit veya kum ekleyerek drenajı artırabilirsiniz. Ayrıca besin açısından zengin toprak kullanmak dereotunun büyümesini hızlandırır. Hafif asidik ya da nötr pH seviyesinde toprak tercih edilmelidir.\n\nIşık: Dereotu bol güneş ışığını sever. Balkonda günde 5-6 saat doğrudan güneş alabileceği bir yere yerleştirilmelidir. Ancak yazın çok yoğun öğle güneşinden korumanız gerekebilir. Gölgelik bir alan ya da sabah güneşi alan bir konum ideal olacaktır.\n\nSulama: Dereotu suyu sever, ancak fazla sulamadan kaçınılmalıdır. Toprağın yüzeyi kurudukça sulama yapın. Yaz aylarında sulama sıklığını artırabilir, ancak suyun saksıda birikmediğinden emin olun. Sularken toprağın derinlemesine ıslanmasına dikkat edin, çünkü yüzeysel sulama köklerin yeterince su almasını engelleyebilir.\n\nSıcaklık: Dereotu serin havaları sever ve 15-25°C sıcaklık aralığında en iyi şekilde yetişir. Balkonda yetiştiriyorsanız, çok soğuk hava koşullarında (10°C'nin altı) bitkinizi korumak için içeri almanız veya üzerini örtmeniz gerekebilir.\n\nGübreleme: Dereotu fazla gübre istemez. Ancak, hızlı büyüme sağlamak için 4-6 haftada bir hafif bir sıvı bitki gübresi kullanılabilir. Organik gübre de iyi bir seçenek olabilir. Dengeli bir gübre kullanarak bitkinizin daha dolgun yapraklar vermesini teşvik edebilirsiniz.\n\nHasat: Dereotu yaklaşık 4-6 hafta içinde hasat edilebilir. Bitki 20-25 cm boyutuna ulaştığında yaprakları kesmeye başlayabilirsiniz. Hasadı düzenli olarak yaparsanız, bitki daha fazla sürgün verecek ve uzun süre üretken kalacaktır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Dereotu Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sistemlerinde dereotu için geniş ve iyi drenaj sağlayan modüller kullanılmalıdır. Su ve besinlerin kolayca akabileceği, fazla suyun köklere zarar vermeyeceği bir ortam sağlanmalıdır.\n\n Hidroponik Sistem: Dereotu, hidroponik dikey tarım sistemlerinde de kolayca yetiştirilebilir. Dereotu, besin çözeltisi ile beslenen bir ortamda hızla büyür. Bitki için hafif bir besin çözeltisi kullanılması önerilir. Bu sistemde, toprağa gerek kalmadan bitkiler su ve besin çözeltisi ile beslenir.\n\nIşıklandırma: Dikey tarım sisteminde, doğal güneş ışığı yeterli değilse yapay ışıklandırma gerekebilir. LED bitki ışıkları, dereotunun büyümesini destekleyecek şekilde ayarlanmalıdır. Günlük 10-12 saat aydınlatma sağlamak bitkinin sağlıklı büyümesini teşvik eder.\n\nSulama ve Nem Kontrolü: Dikey tarım sisteminde, suyun düzenli olarak sağlanması gerekir. Otomatik sulama sistemleri, su ihtiyacını karşılayabilir. Nem oranı düşük olduğunda sulama arttırılabilir. Ancak suyun drenajının iyi yapıldığından emin olunmalıdır.\n\nBesin Çözeltisi: Hidroponik sistemde yetiştirilen dereotu, suyun içinde besin çözeltisi ile beslendiği için azot, fosfor ve potasyum içeren bir gübre çözeltisi kullanılmalıdır. Çözeltinin pH seviyesi 6-7 aralığında tutulmalıdır."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

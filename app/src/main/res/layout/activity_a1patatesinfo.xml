@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a08patates" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Patates Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Patatesler geniş kök alanı gerektirdiği için en az 40-50 cm derinliğinde ve genişliğinde saksılar kullanın. Patatesler, geniş ve derin bir alana ihtiyaç duyar.\n\n Güneşli Alan Seçimi: Patatesler bol güneş ışığına ihtiyaç duyar. Balkonda günde en az 6-8 saat doğrudan güneş ışığı alan bir yer seçin. Güney cepheli alanlar idealdir.\n\nToprak: İyi drene olan, hafif asidik ve besin açısından zengin toprak kullanın. Toprağın hafif ve gevşek olması patateslerin büyümesi için uygundur. Organik madde eklemek de toprağı zenginleştirir.\n\nFide veya Göz Ekim: Patatesleri doğrudan saksıya veya bir patates filizinden fide olarak ekebilirsiniz. Patates gözlerini (filizlerini) yaklaşık 10-15 cm derinliğe yerleştirin ve üzerine toprak ekleyin. Filizler toprağın üstüne çıktığında, ek toprağı ekleyerek köklerin gelişmesini teşvik edin.\n\nSulama: Patatesler düzenli ve dengeli sulama ister. Toprağı nemli tutun ancak aşırı sulamaktan kaçının. Özellikle meyve oluşumu döneminde su ihtiyacı artar.\n\nGübreleme: Patatesler için azot, fosfor ve potasyum açısından dengeli gübreler kullanabilirsiniz. Büyüme döneminde, her 4-6 haftada bir gübreleme yaparak sağlıklı bitki gelişimini destekleyin.\n\nDestekleme: Patates bitkileri yayılabilir, bu yüzden saksının etrafına bir destek sistemi eklemek gerekebilir. Patatesler toprağın altına meyve verir, bu yüzden bitkilerin üst kısmını destekleyerek bitkiyi düzgün bir şekilde büyütebilirsiniz.\n\nHasat: Patatesler, bitkilerin üst kısmı solduğunda ve yapraklar kuruduğunda hasat edilir. Patatesleri dikkatlice toprağın altından çıkarın ve temizleyip saklayın."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Patates Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda patates yetiştirmek için özel derin hidroponik modüller veya sığ, geniş tüpler kullanabilirsiniz. Patateslerin kök gelişimini destekleyecek şekilde modüller seçilmelidir.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gerekebilir. Patatesler için günde 12-16 saat arasında beyaz LED ışık sağlamak idealdir. Işıklandırma, bitkilerin sağlıklı gelişimini ve meyve oluşumunu destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde patatesler için azot, fosfor ve potasyum açısından dengeli bir besin çözeltisi kullanılır. Çözeltinin pH seviyesi 5.5-6.0 arasında tutulmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Patates köklerinin sürekli nemli kalması sağlanmalı, ancak aşırı su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nDestek Sistemleri: Patates bitkileri yukarı doğru büyüyebilir, bu yüzden bitkileri destekleyen kafesler veya askılar kullanabilirsiniz. Özellikle meyve gelişiminde desteklemek için uygun destek sistemleri kurun.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Patatesler için yeterli hava akışı, mantar ve diğer hastalıkların önlenmesine yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az görülür, ancak düzenli kontroller yapılmalıdır. Zararlılara karşı biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

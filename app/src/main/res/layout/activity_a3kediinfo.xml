@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a01kedi" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kedi bakımı "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Kediler, etçil hayvanlardır ve dengeli bir diyetle beslenmeleri gerekir.\n
+Kuru ve Yaş Mama: Kedinizin yaşına, kilosuna ve sağlık durumuna göre kaliteli bir kuru ve yaş mama seçin. Kediler genellikle su tüketimini düşük tutarlar, bu yüzden yaş mama onların sıvı alımını artırabilir.\n
+Su: Taze su her zaman kedinizin erişiminde olmalıdır. Kediler genellikle akan suyu tercih eder, bu yüzden su pınarları iyi bir seçenek olabilir.\n
+Diyet ve Kilo Kontrolü: Kedinizin kilo almasını veya kilo kaybetmesini düzenli olarak izleyin. Veterinerden, kedinizin ideal kilosunu nasıl koruyacağınız konusunda rehberlik alabilirsiniz.\n\n
+2. Tuvalet Eğitimi ve Kum Kutusu:\n
+Kediler doğal olarak kum kutusuna tuvaletlerini yaparlar, ancak uygun ortam sağlanmalıdır.\n
+Kum Kutusu Seçimi: Kedinizin rahat kullanabileceği geniş bir kum kutusu seçin. Kutuyu sessiz, huzurlu ve ulaşılabilir bir yere koyun.\n
+Kum Seçimi: Topaklaşan, kokuyu kontrol eden kumlar genellikle en kullanışlı olanlardır. Kedinizin tercihlerine göre kum çeşidini seçebilirsiniz (doğal, kristal, bentonit gibi).\n
+Temizlik: Kum kutusunu düzenli olarak temizlemek önemlidir. Kediniz, kirli bir kum kutusunu kullanmaktan kaçınabilir.\n\n
+3. Temel Hijyen ve Tüy Bakımı:\n
+Kediler genellikle kendilerini temizler, ancak sizin de bakım yapmanız gerekir.\n
+Tüy Bakımı: Kedinizin tüy yapısına göre (kısa tüylü, uzun tüylü) düzenli tarama yapmalısınız. Tüy dökülmesini azaltmak ve tüy yumaklarının oluşumunu önlemek için tarama şarttır.\n
+Tırnak Kesimi: Kedinizin tırnaklarını düzenli olarak kesmek, tırmalama ve yaralanma risklerini azaltır. Veterinerden tırnak kesimi için yardım alabilir ya da dikkatlice kendiniz yapabilirsiniz.\n
+Kulak ve Göz Bakımı: Kedinizin kulaklarını ve gözlerini düzenli olarak kontrol edin. Kir veya akıntı görürseniz temizleyin veya veterinerden yardım alın.\n
+Ağız ve Diş Sağlığı: Kedinizin dişlerini düzenli olarak fırçalayarak diş hastalıklarını önleyebilirsiniz. Ayrıca, veteriner tavsiyesine göre diş bakımı mamaları veya ödüller kullanabilirsiniz.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Kedinizin sağlığını korumak için düzenli veteriner kontrollerine gitmek önemlidir.\n
+Aşılar: Kedinizin düzenli aşılarının yapılması gerekir. Karma aşı, kuduz aşısı ve diğer hastalıklara karşı aşılar kedinizin sağlığı için çok önemlidir.\n
+Parazit Koruması: Kedinizin pire, kene ve bağırsak parazitlerinden korunmasını sağlamak için düzenli olarak parazit tedavisi yapın.\n
+Kısırlaştırma: Kedinizin sağlığını ve yaşam kalitesini artırmak için kısırlaştırmayı düşünebilirsiniz. Kısırlaştırma, istenmeyen üreme sorunlarını ve bazı sağlık sorunlarını engelleyebilir.\n
+Veteriner Kontrolleri: Kedinizin düzenli sağlık kontrollerine gitmesi, olası hastalıkların erken teşhisi açısından çok önemlidir.\n\n
+5. Çevre Düzeni ve Güvenlik:\n
+Kedinizin rahat ve güvenli bir yaşam alanı olması gerekir.\n
+Yatak ve Dinlenme Alanları: Kedinizin kendine ait rahat bir yatağı veya dinlenme alanı olmalıdır. Kediler, yüksek ve sessiz alanlarda uyumayı sever.\n
+Oyuncaklar ve Etkileşim: Kedinizin zihinsel ve fiziksel sağlığı için çeşitli oyuncaklar sunun. Kediler avlanma içgüdülerini tatmin edecek oyuncaklarla oynamaktan hoşlanır.\n
+Tırmalama Tahtası: Kedinizin tırnaklarını törpülemesi için bir tırmalama tahtası bulundurun. Bu, mobilyaları korumak açısından da faydalıdır.\n\n
+6. Sosyal İhtiyaçlar ve İlgi:\n
+Kediler bağımsız olabilir, ancak ilgi ve sevgiye ihtiyaçları vardır.\n
+Sosyalleşme: Kedinizle düzenli olarak etkileşim kurarak ona ilgi gösterin. Kediler, sahipleriyle oyun oynayarak bağ kurar.\n
+Kedinizin Ruh Hali: Kediler bazen sessiz ve içe kapanık olabilir. Onlara alan tanıyın ama aynı zamanda kedinizdeki davranış değişikliklerini izleyin, çünkü bu sağlık sorunlarına işaret edebilir.\n
+Diğer Evcil Hayvanlar: Eğer başka evcil hayvanlarınız varsa, kedinizi dikkatli bir şekilde yeni arkadaşlarıyla tanıştırın. Kediler diğer hayvanlara alışırken zaman ve sabır gerekebilir.\n\n
+7. Kedinin Gözlemi ve Sorunlar:\n
+Kedinizde davranış değişiklikleri fark ederseniz, sorunu erken teşhis etmek için gözlem yapmalısınız.\n
+Tuvalet Alışkanlıklarındaki Değişiklikler: Kum kutusunu kullanma alışkanlığındaki ani değişiklikler, idrar yolu sorunlarına işaret edebilir.\n
+İştah Kaybı veya Aşırı Yeme: Kedinizin iştahındaki değişiklikler sağlık sorunlarına işaret edebilir.\n
+Fazla Uyuma veya Halsizlik: Kedinizin normalden daha fazla uyuması veya halsiz görünmesi durumunda veterinere danışmanız faydalı olabilir."
+                />
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

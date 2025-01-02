@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a16pasakilici" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Pasaklıcı (Euphorbia) Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Pasaklıcı (Euphorbia), çeşitli türleri bulunan ve düşük bakım gerektiren bir bitkidir. Balkonda pasaklıcı yetiştirmek için şu adımları izleyebilirsiniz:\n\n Saksı Seçimi: Pasaklıcı, köklerinin iyi hava almasını ve suyun fazla birikmesini önlemek için geniş ve iyi drene olan saksılar tercih eder. Saksının alt kısmında drenaj delikleri bulunmalıdır. Ayrıca, köklerin genişlemesine yeterli alan sağlayacak bir saksı seçmek önemlidir.\n\nToprak: Pasaklıcılar, iyi drene olan ve hafif kumlu toprağı sever. Hafif asidik ila nötr pH (6-7) değerlerine sahip topraklar idealdir. Toprağın içine biraz perlit veya kum ekleyerek drenaj özelliklerini artırabilirsiniz. Bahçe toprağı yerine saksı toprağı kullanmanız önerilir.\n\nIşık: Pasaklıcılar bol güneş ışığını sever. Günde en az 6-8 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, bitkinin sağlıklı büyümesini ve çiçeklenmesini teşvik eder. Eğer doğrudan güneş ışığı alabilecek bir balkonunuz yoksa, güçlü yapay ışık kaynakları kullanılabilir.\n\nSulama: Pasaklıcılar az su isteyebilir. Toprağın tamamen kurumasına izin vermek, ardından sulama yapmak en iyisidir. Aşırı sulama kök çürümesine neden olabilir. Sulama sırasında toprağın tamamen kurumasına ve drenajın düzgün çalışmasına dikkat edin.\n\nGübreleme: Pasaklıcılar genellikle fazla gübrelemeye ihtiyaç duymaz. İlkbahar ve yaz aylarında, her 6-8 haftada bir dengeli bir bitki gübresi kullanabilirsiniz. Gübreleme sırasında ölçülü olun, fazla gübre bitkinin sağlığını olumsuz etkileyebilir.\n\nSıcaklık: Pasaklıcılar, 15-25°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı dayanıklıdır, ancak kış aylarında 5°C'nin altındaki sıcaklıklardan korunmalıdır. Özellikle soğuk rüzgarlardan ve donlardan uzak tutmak gerekir.\n\nHava Akışı: Pasaklıcılar iyi hava akışını sever. Balkonda yeterli hava akışını sağlamak için bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Bu, hastalıkların ve zararlıların oluşumunu önlemeye yardımcı olur.\n\nBudama: Pasaklıcılar genellikle budama gerektirmez, ancak ölü veya solmuş yaprakları temizlemek, bitkinin sağlıklı görünmesini sağlar. Bitkinin şeklini korumak için hafif budama yapabilirsiniz.\n\nEk İpuçları:\nPasaklıcıların özsuyu tahriş edici olabilir, bu yüzden bitki ile çalışırken eldiven kullanmanız ve ellerinizi yıkamanız önerilir.\nPasaklıcılar genellikle zararlılara karşı dayanıklıdır, ancak dikkatli olunmalıdır. Yapraklarda mantar hastalıkları veya zararlılar oluşabilir, bu yüzden düzenli olarak bitkiyi kontrol edin.\nBalkonda pasaklıcı yetiştirirken, bitkinin güneş ışığı, sulama ve toprak ihtiyacına dikkat ederek sağlıklı ve estetik bir bitki elde edebilirsiniz. Bu bitkiler düşük bakım gerektirdikleri için, balkonda güzellik katabilirler."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

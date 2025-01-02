@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a02kopek" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Köpek Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:scrollbarSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Köpekler, etçil ağırlıklı olmakla birlikte dengeli bir diyete ihtiyaç duyarlar. Onların sağlıkları ve enerjileri için doğru beslenme çok önemlidir.\n
+Kuru ve Yaş Mama: Köpeğinizin yaşına, kilosuna ve sağlık durumuna uygun kaliteli kuru ve yaş mama seçin. Yaş mama, köpeğinizin sıvı alımını destekleyebilir, ancak dengeli bir şekilde kuru mama ile beslenmesi de gerekir.\n
+Su: Taze su her zaman köpeğinizin erişiminde olmalıdır. Günlük su kabı temizliği yapılmalı ve suyun her zaman taze olmasına dikkat edilmelidir.\n
+Diyet ve Kilo Kontrolü: Köpeğinizin ideal kilosunu korumak için onu düzenli olarak tartın ve aşırı kilo almaması ya da zayıflamaması için veterinerden yardım alın.\n\n
+2. Tuvalet Eğitimi:\n
+Köpekler yavruyken tuvalet eğitimi verilmelidir. Bu süreç sabır ve tutarlılık gerektirir.\n
+Tuvalet Alanı Seçimi: Köpeğinize ev içinde belirli bir alan veya dışarıda belirli bir yer göstermek tuvalet eğitiminde faydalı olacaktır. Belirli zamanlarda dışarı çıkartarak bu alışkanlığı kazandırabilirsiniz.\n
+Övgü ve Ödül: Köpeğiniz doğru yere tuvaletini yaptığında onu ödüllendirerek bu davranışı pekiştirebilirsiniz.\n\n
+3. Temel Hijyen ve Tüy Bakımı:\n
+Köpekler, özellikle tüy dökme dönemlerinde düzenli bakım ister.\n
+Tüy Bakımı: Köpeğinizin tüy yapısına uygun olarak (kısa tüylü, uzun tüylü) taraklar seçin ve düzenli olarak tarayın. Tüy dökülmesini azaltmak ve tüy düğümlerini önlemek için düzenli tarama şarttır.\n
+Banyo: Köpeğinizin türüne bağlı olarak belirli aralıklarla yıkanması gerekir. Köpeklere uygun şampuanlar kullanarak banyo yaptırın.\n
+Tırnak Kesimi: Tırnakların düzenli olarak kesilmesi önemlidir. Uzayan tırnaklar köpeğinize rahatsızlık verebilir veya yürürken acıya sebep olabilir.\n
+Kulak ve Göz Bakımı: Köpeğinizin kulaklarını ve gözlerini düzenli olarak kontrol edin. Kir veya akıntı fark ederseniz veterinerden yardım alın.\n
+Ağız ve Diş Sağlığı: Köpeğinizin dişlerini düzenli olarak fırçalayarak diş hastalıklarını önleyebilirsiniz. Ayrıca, veteriner tavsiyesiyle diş sağlığına uygun çiğneme oyuncakları ya da ödüller verebilirsiniz.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Köpeğinizin sağlıklı bir yaşam sürdürebilmesi için düzenli veteriner kontrolleri gereklidir.\n
+Aşılar: Köpeğinizin düzenli olarak aşılarının yapılması gerekir. Karma aşı, kuduz aşısı ve diğer önemli aşılar, onu hastalıklara karşı korur.\n
+Parazit Koruması: Pire, kene ve bağırsak parazitlerine karşı düzenli koruma tedavisi uygulamak gerekir. Dış parazit ilaçlarını veteriner önerisiyle kullanmalısınız.\n
+Kısırlaştırma: Köpeğinizin sağlığını artırmak ve istenmeyen yavruları önlemek için kısırlaştırmayı düşünebilirsiniz. Bu operasyon, bazı sağlık sorunlarını da önleyebilir.\n\n
+5. Çevre Düzeni ve Güvenlik:\n
+Köpeğinizin güvenli ve rahat bir ortamda yaşaması, onun huzurlu ve mutlu olmasını sağlar.\n
+Yatak ve Dinlenme Alanı: Köpeğinizin dinlenebileceği rahat ve güvenli bir yatak olmalıdır. Yatağını sessiz, huzurlu bir yere yerleştirin.\n
+Oyuncaklar: Köpeğinize fiziksel ve zihinsel olarak uyarıcı oyuncaklar sunun. Çiğneme oyuncakları, top gibi av oyunlarına yönelik oyuncaklar ideal olabilir.\n
+Gezdirme ve Egzersiz: Köpeğinizin enerjisini atabilmesi ve sağlıklı kalabilmesi için düzenli yürüyüşlere çıkarın. Bahçeniz varsa, dışarıda oynamasına izin verebilirsiniz.\n\n
+6. Sosyal İhtiyaçlar ve İlgi:\n
+Köpekler sosyal hayvanlardır ve insanlarla etkileşim kurmak isterler.\n
+Sosyalleşme: Köpeğinizin diğer insanlarla ve hayvanlarla sosyalleşmesine fırsat tanıyın. Onu farklı ortamlara götürerek sosyalleşme becerilerini geliştirin.\n
+Oyun ve Etkileşim: Köpeğinizle günlük olarak oyun oynayın ve ona zaman ayırın. Onunla vakit geçirmek, hem aranızdaki bağı güçlendirir hem de köpeğinizin mutlu olmasını sağlar.\n
+Davranış Gözlemi: Köpeğinizde ani davranış değişiklikleri fark ederseniz, bu durumu yakından takip edin. Anormal durumlar için veterinerden yardım alın.\n\n
+7. Köpeğin Gözlemi ve Sorunlar:\n
+Köpeğinizin sağlığını ve ruh halini izlemek önemlidir.\n
+İştah Kaybı veya Aşırı Yeme: Köpeğinizin iştahındaki değişiklikler, sağlık sorunlarına işaret edebilir.\n
+Fazla Halsizlik: Köpeğiniz normalden fazla halsiz görünüyorsa, veterinere başvurmanız gerekebilir.\n
+Davranış Değişiklikleri: Agresifleşme, aşırı havlama veya çekingenlik gibi davranış değişiklikleri, köpeğinizin stres yaşadığını veya hasta olduğunu gösterebilir."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

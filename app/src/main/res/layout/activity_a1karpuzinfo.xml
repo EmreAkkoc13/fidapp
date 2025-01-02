@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a14karpuz" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:text="Balkonda Karpuz Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Karpuzlar geniş alan ister, bu yüzden en az 40-50 cm derinlikte ve geniş saksılar kullanın. Köklerinin rahat büyümesi için saksının hacmi büyük olmalı.\n\n Güneşli Alan Seçimi: Karpuzlar sıcak hava ve bol güneş sever. Balkonda karpuz yetiştirirken, günde en az 8 saat güneş alan bir yer seçin. Güney cepheli bir balkon idealdir.\n\nToprak: İyi drene olan, besin açısından zengin ve organik maddeler içeren hafif toprak kullanın. Karpuz köklerinin iyi beslenmesi için toprak karışımına organik gübre ekleyebilirsiniz.\n\nTohum Ekim: Karpuz tohumlarını doğrudan saksıya ekin ya da fide kullanın. Tohumları toprağa 2-3 cm derinliğe yerleştirip hafifçe örtün. Tohumlar 7-10 gün içinde filizlenir.\n\nSulama: Karpuz düzenli ve bol sulama gerektirir, ancak suyun saksıda birikmemesine dikkat edin. Toprağı sürekli nemli tutun, ancak kök çürümesini önlemek için fazla suyu drene edin.\n\nDestek Sağlama: Balkonda karpuz yetiştirirken, bitkiyi yukarı doğru desteklemek için bir kafes veya iple sarılabilecek bir yapı kullanabilirsiniz. Karpuz meyvesi büyüdükçe ağırlığı artar, bu yüzden meyveleri desteklemek için bir file veya askı kullanabilirsiniz.\n\nGübreleme: Karpuzlar hızlı büyüdükleri için bol besin ister. Organik veya azot, fosfor ve potasyum açısından zengin gübrelerle büyüme döneminde düzenli olarak gübreleme yapın.\n\nHasat: Karpuzlar büyüdükten sonra olgunlaştıklarında, meyve kabuğu parlaklığını kaybedip matlaşır. Karpuzların olgunlaşmasını bekleyin ve sapın kolayca kopacağı dönemde hasat edin."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Karpuz Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda, karpuzlar için büyük modüller veya derin hidroponik sistemler kullanmak gerekir. Karpuzların kökleri geniş alan ister, bu nedenle modüller ya da yatay büyüme alanları tercih edilebilir.\n\n Işıklandırma: Dikey tarımda yapay ışıklandırma kullanılmalıdır. Karpuzlar günde en az 12-16 saat gün ışığını simüle eden beyaz LED ışıklandırma altında büyütülmelidir.\n\nBesin Çözeltisi: Hidroponik sistemlerde, karpuzlar için yüksek azot, fosfor ve potasyum içeren bir besin çözeltisi kullanılır. Büyüme döneminde bu çözeltinin dengesi korunmalıdır. Çözeltinin pH seviyesi 6.0-6.8 arasında olmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemi kullanılır. Karpuzlar nemli bir ortamı sever, ancak fazla su birikintisi oluşmamalıdır. Hidroponik sistemlerde kökler düzenli olarak besin çözeltisiyle temas halinde olmalıdır.\n\nDestek Sistemleri: Dikey tarımda karpuzların büyümesi için yukarı doğru destekler kullanılmalıdır. Ağırlaşan meyveler için özel askılar veya fileler kullanarak destek sağlayın.\n\nHava Sirkülasyonu: İç mekan dikey tarım sistemlerinde hava sirkülasyonu önemlidir. Karpuzlar geniş alan ve iyi bir hava akımı ile hastalıklardan korunur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlı riski düşük olsa da karpuz bitkilerini düzenli olarak kontrol etmek gerekir. Zararlı böceklere karşı biyolojik mücadele veya doğal yöntemler kullanabilirsiniz."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

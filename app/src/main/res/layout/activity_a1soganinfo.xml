@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a05sogan" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Soğan Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Soğan kökleri geniş bir alana ihtiyaç duymaz, ancak derin bir saksı kullanmak köklerin rahatça gelişmesini sağlar. En az 20-30 cm derinliğinde ve 30 cm çapında bir saksı uygundur.\n\n Güneşli Alan Seçimi: Soğanlar bol güneş ışığına ihtiyaç duyar. Balkonda günde en az 6 saat doğrudan güneş ışığı alan bir yer seçin. Güney cepheli bir alan idealdir.\n\nToprak: İyi drene olan, besin açısından zengin ve hafif asidik toprak kullanın. Toprağın gevşek ve hava almasını sağlamak için kompost veya torf ekleyebilirsiniz.\n\nEkim: Soğanları tohum, soğan başı (soğanlar) veya soğan çimlenmiş haliyle yetiştirebilirsiniz. Soğan başlarını veya çimlenmiş soğanları doğrudan saksıya dikin. Tohum kullanıyorsanız, tohumları toprağın yüzeyine serpin ve üzerini hafifçe örtün.\n\nSulama: Soğanlar düzenli sulama ister. Toprağın nemli kalmasını sağlarken suyun saksıda birikmesini önleyin. Sulama sıklığını, hava koşullarına ve bitkinin ihtiyaçlarına göre ayarlayın.\n\nGübreleme: Soğanlar için dengeli bir gübre kullanabilirsiniz. Büyüme dönemi boyunca, her 4-6 haftada bir azot, fosfor ve potasyum açısından dengeli gübre uygulayarak bitkinin sağlıklı büyümesini destekleyin.\n\nHasat: Soğanlar, yeşil yaprakları sararıp kuruduğunda hasat edilir. Soğan başları toprağın üstüne çıkacaktır. Toprağı dikkatlice kazın ve soğanları çıkarın."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Soğan Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda soğan yetiştirmek için derin, sığ veya çok katmanlı modüller kullanabilirsiniz. Soğan köklerinin genişlemesi için yeterli alan sağlayan modüller tercih edilmelidir.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gerekebilir. Soğanlar için günde 12-16 saat arasında beyaz LED ışık sağlamak idealdir. Işıklandırma, bitkinin sağlıklı gelişimini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde, soğanlar için azot, fosfor ve potasyum açısından dengeli bir besin çözeltisi kullanılır. Çözeltinin pH seviyesi 6.0-6.5 arasında olmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Soğan köklerinin sürekli nemli kalması sağlanmalı, ancak su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nDestek Sistemleri: Soğan bitkileri geniş bir alana ihtiyaç duymaz, ancak büyüyen bitkilerin düzenli bir şekilde büyümesini sağlamak için uygun destek sistemleri kurabilirsiniz.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Soğanlar için yeterli hava akışı, mantar ve diğer hastalıkların önlenmesine yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az görülür, ancak düzenli kontroller yapılmalıdır. Zararlılara karşı biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

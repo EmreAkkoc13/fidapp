@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a11kekik" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Kekik Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Kekik bitkisi kökleri fazla derin olmayan ve sığ toprakları sever, bu nedenle 15-20 cm derinliğinde bir saksı yeterlidir. Saksının alt kısmında drenaj delikleri olmalıdır, böylece fazla su rahatlıkla tahliye edilir ve kökler çürümez.\n\n Toprak: Kekik iyi drene olan, hafif ve kumlu toprakları tercih eder. Toprak karışımına biraz kum veya perlit ekleyerek drenajı artırabilirsiniz. Toprağın hafif alkali (pH 6-7) olması ideal sonuçlar verir. Organik madde açısından zengin topraklar da kekik için uygundur.\n\nIşık: Kekik bol güneş ışığını sever. Günde en az 6 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, kekik yapraklarının aromatik yağlarının artmasını sağlar ve bitkinin sağlıklı büyümesini destekler.\n\nSulama: Kekik, kuru toprakları tercih eder ve fazla suyu sevmez. Toprağın üst kısmı kurudukça sulama yapmalısınız. Kış aylarında sulama sıklığını azaltabilir, çünkü bitki dinlenme dönemindedir ve su ihtiyarı azalır. Aşırı sulama kök çürümesine neden olabilir, bu yüzden sulama yaparken toprağın kurumasını bekleyin.\n\nGübreleme: Kekik fazla gübrelemeye ihtiyaç duymaz. İlkbahar ve yaz aylarında, her 4-6 haftada bir az miktarda dengeli bir bitki gübresi kullanılabilir. Fazla gübre bitkinin aroma ve tadını etkileyebilir, bu yüzden ölçülü olunmalıdır.\n\nSıcaklık: Kekik 15-25°C sıcaklık aralığında iyi büyür. Soğuk havalardan korunması gereken bir bitkidir; bu yüzden kış aylarında saksıyı korunaklı bir yere almak gerekebilir. Özellikle soğuk havalarda, sıcaklık 5°C'nin altına düştüğünde bitkiyi içeri alabilirsiniz.\n\nHasat: Kekik yapraklarını düzenli olarak hasat edebilirsiniz. Genellikle yaz sonuna doğru çiçeklenme dönemi bitiminde, yaprakları ve çiçekleri toplayarak bitkinin daha fazla yaprak vermesini teşvik edebilirsiniz. Yaprakları erken hasat ederek daha taze ve aromatik hale getirebilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Kekik Yetiştirm"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sisteminde kekik için daha geniş ve sağlam modüller tercih edilmelidir. Kekik, sığ kök yapısına sahip olduğundan, köklerin rahatça yayılabileceği modüller kullanılmalıdır. Dikey sistemlerin her bir bölmesinde yeterli drenaj sağlanmalıdır.\n\n Hidroponik Sistem: Kekik, hidroponik sistemlerde de yetiştirilebilir. Bu sistemde bitkiye gerekli besin maddeleri, su ve hava dengesi kontrol edilerek sağlanır. Kekik, hidroponik sistemlerde besin çözeltilerine ihtiyaç duyar; bu nedenle özel olarak formüle edilmiş bir besin çözeltisi kullanılmalıdır.\n\nIşıklandırma: Dikey tarım sistemlerinde doğal ışık yetersizse, LED bitki ışıkları kullanılabilir. Kekik, günde 8-10 saat ışık almalıdır. LED ışıklar, bitkinin sağlıklı büyümesini destekler ve her tarafının eşit şekilde ışık almasını sağlar.\n\nBesin Çözeltisi: Kekik, hidroponik sistemlerde özel besin çözeltileri ile beslenir. Bu çözümler, bitkinin ihtiyaç duyduğu besin maddelerini sağlar. Azot, fosfor ve potasyum oranlarına dikkat edilmelidir.\n\nNem ve Sıcaklık Kontrolü: Kekik, yüksek nemi sevmez. Dikey tarım sistemlerinde hava akışını ve nem seviyesini kontrol etmek önemlidir. İdeal sıcaklık 15-25°C arasında tutulmalıdır. Ayrıca, sistemi düzenli olarak havalandırarak nem oranını dengede tutmak gerekir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

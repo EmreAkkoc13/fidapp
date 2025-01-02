@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a03tavsan" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tavşan Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Tavşanlar, otçul hayvanlardır ve dengeli bir beslenme rejimi onların sağlığı için çok önemlidir.\n
+Saman: Tavşanlar için ana besin kaynağı kaliteli kuru samandır. Sindirim sistemlerinin düzenli çalışması için sürekli saman bulundurulmalıdır.\n
+Sebzeler: Günlük olarak taze yapraklı sebzeler verilmelidir. Marul, ıspanak, roka gibi sebzeler tavşanlar için uygundur. Ancak her sebze verilmeden önce küçük miktarlarda denenmeli ve bir alerjik reaksiyon olup olmadığı gözlemlenmelidir.\n
+Pelit Mama: Tavşanlara özel hazırlanmış pelet mamalar, onların besin ihtiyaçlarını karşılamak için ideal bir tamamlayıcıdır. Ancak aşırı miktarda verilmemelidir.\n
+Su: Taze su, her zaman tavşanınızın ulaşabileceği bir yerde olmalıdır. Su kabı düzenli olarak temizlenmeli ve her gün taze su sağlanmalıdır.\n\n
+2. Tuvalet Eğitimi:\n
+Tavşanlar temiz hayvanlardır ve kum kabı kullanma eğilimindedirler.\n
+Tuvalet Alanı Seçimi: Tavşanlar genellikle belirli bir köşeyi tuvalet için kullanmayı tercih ederler. Bu nedenle kafesin veya yaşam alanının bir köşesine kum kutusu koyabilirsiniz.\n
+Kum Seçimi: Tavşanlar için kullanılan doğal, kokusuz ve toz yapmayan kumlar tercih edilmelidir. Topaklaşan kedi kumları tavşanlar için zararlı olabilir, bu yüzden kullanılmamalıdır.\n\n
+3. Temel Hijyen ve Tüy Bakımı:\n
+Tavşanlar, kendilerini temizlemelerine rağmen düzenli tüy bakımı yapılması gereken hayvanlardır.\n
+Tüy Bakımı: Tavşanlar tüy dökme dönemlerinde sık sık taranmalıdır. Uzun tüylü tavşanlar, tüylerinin karışmasını ve düğümlenmesini önlemek için daha sık taranmalıdır.\n
+Banyo: Tavşanların banyo yapmasına gerek yoktur. Eğer çok kirlenirlerse, nemli bir bezle silinebilirler. Banyolar tavşanlarda strese neden olabilir.\n
+Tırnak Kesimi: Tavşanlar sürekli olarak toprağı kazmazlarsa, tırnakları uzar ve rahatsızlık verebilir. Bu nedenle düzenli olarak tırnak kesimi yapılmalıdır.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Tavşanlar hassas hayvanlardır ve düzenli veteriner kontrolleri önemlidir.\n
+Aşılar: Tavşanlar için gerekli aşılar, özellikle dış ortamda yaşayan tavşanlar için önemlidir. Myxomatosis ve Rabbit Hemorrhagic Disease (RHD) gibi hastalıklara karşı aşı yapılmalıdır.\n
+Parazit Koruması: Tavşanların pire ve diğer parazitlerden korunması için veteriner tarafından önerilen tedavi yöntemleri kullanılmalıdır.\n
+Kısırlaştırma: Tavşanlarda kısırlaştırma, istenmeyen üreme problemlerini önlemek ve bazı sağlık sorunlarının önüne geçmek için önerilir.\n\n
+5. Yaşam Alanı Düzeni ve Güvenlik:\n
+Tavşanların güvenli ve geniş bir yaşam alanı sağlanmalıdır.\n
+Kafes: Tavşanlar için yeterli alan sunan geniş bir kafes seçilmelidir. Ancak tavşanlar günlük olarak kafes dışına çıkarılarak egzersiz yapmalıdır.\n
+Saklanma Alanları: Tavşanlar doğaları gereği kendilerini güvende hissetmek için saklanma alanlarına ihtiyaç duyarlar. Kafeste veya yaşam alanında saklanabilecekleri küçük evler ya da tüneller bulundurulmalıdır.\n
+Çiğneme Oyuncakları: Tavşanların dişleri sürekli büyüdüğü için, dişlerini törpülemelerine yardımcı olacak doğal çiğneme oyuncakları veya ağaç dalları sağlanmalıdır.\n\n
+6. Sosyal İhtiyaçlar ve İlgi:\n
+Tavşanlar sosyal hayvanlardır ve insanlarla ve diğer tavşanlarla etkileşim kurmaktan hoşlanırlar.\n
+Sosyalleşme: Tavşanınızı günlük olarak elle beslemek, onunla vakit geçirmek ve etkileşimde bulunmak, tavşanınızın size alışmasını sağlar.\n
+Oyun: Tavşanlar çeşitli oyuncaklarla vakit geçirmeyi severler. Onlar için güvenli, doğal materyallerden yapılmış oyuncaklar sunarak zihinsel ve fiziksel sağlıklarını koruyabilirsiniz.\n\n
+7. Tavşanın Gözlemi ve Sorunlar:\n
+Tavşanlar sessiz hayvanlar olabilir, bu yüzden onların sağlık durumunu yakından takip etmek önemlidir.\n
+İştah Kaybı: Tavşanınızın iştahında azalma fark ederseniz veya tuvalet alışkanlıklarında değişiklik olursa, bu bir sağlık sorununun belirtisi olabilir. Veterinerden yardım almanız gerekir.\n
+Davranış Değişiklikleri: Tavşanlarda ani davranış değişiklikleri veya aşırı stres belirtileri fark ederseniz, bunu göz ardı etmemeli ve bir veterinerle iletişime geçmelisiniz."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

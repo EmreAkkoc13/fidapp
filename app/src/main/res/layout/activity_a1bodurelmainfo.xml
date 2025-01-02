@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a15bodurelma" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Bodur Elma Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Güneşli Alan Seçimi: Bodur elma ağaçları güneşi sever, bu yüzden balkonda günde en az 6 saat güneş alan bir yer seçin. Bol ışık, meyve verimini artırır.\n\n Saksı Seçimi: Bodur elma ağaçları için derin ve geniş saksılar kullanın (en az 40-50 cm derinlik). Drenaj delikleri olan saksılar, kök çürümesini önler.\n\nToprak ve Drenaj: İyi drene olan, humuslu ve besin açısından zengin bir toprak tercih edin. Hafif asidik (pH 6-7) toprak bodur elma ağaçları için idealdir.\n\nDüzenli Sulama: Toprağı sürekli nemli tutmaya özen gösterin, ancak suyun birikmesini önleyin. Bodur elma ağaçları için düzenli sulama önemlidir, özellikle yaz aylarında su ihtiyacı artar.\n\nGübreleme: Organik madde bakımından zengin gübreleri büyüme döneminde kullanın. Elma ağacını ilkbahar ve yaz başında dengeli bir gübreyle beslemek, meyve verimini artırır.\n\nBudama: Bodur elma ağaçlarının şeklini korumak ve hava sirkülasyonunu artırmak için kış sonunda hafif budama yapın. Ayrıca ölü veya hastalıklı dalları kesin.\n\nDestek Sağlama: Büyüdükçe ağaca bir sırık veya destek çubuğu yerleştirerek rüzgarda devrilmesini önleyin.\n\nZararlı Kontrolü: Zararlı böcekler, özellikle yaprak bitleri ve elma iç kurdu gibi zararlılara karşı bitkiyi düzenli kontrol edin. Doğal böcek ilaçları veya sabunlu su çözeltisi kullanabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Dikey Tarım Sisteminde Bodur Elma Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda, bodur elma ağaçları için özel topraklı veya topraksız (hidroponik) sistemler kullanılabilir. Elma ağaçlarının köklerinin rahatça büyüyebileceği modüller seçilmelidir.\n\n Işıklandırma: Kapalı dikey tarım sistemlerinde yapay ışıklandırma gereklidir. Elma ağaçları için doğal güneş ışığını taklit eden tam spektrumlu LED ışıklar kullanılır. Bitkinin büyüme ve meyve verme aşamalarına uygun ışık döngüleri sağlanmalıdır.\n\nBesin Çözeltisi: Hidroponik sistemde, bodur elma ağacının sağlıklı büyümesi için dengeli besin çözeltileri kullanılır. Elma ağaçları, özellikle azot, fosfor ve potasyum açısından zengin besinlerle beslenmelidir.\n\nSulama: Dikey tarım sistemlerinde otomatik sulama sağlanır. Topraklı sistemlerde toprağın nemli kalmasını sağlamak için düzenli sulama yapılır, ancak aşırı sulamadan kaçınılmalıdır.\n\nDestek ve Dikim: Bodur elma ağaçları için dikey tarımda, ağaçları desteklemek amacıyla sağlam bir yapısal destek gerekir. Bitkilerin meyve ağırlığı arttıkça dalları desteklenmelidir.\n\nHava Sirkülasyonu: İç mekan dikey tarım sistemlerinde hava dolaşımına dikkat edilmelidir. İyi bir hava akışı, hastalıkları ve mantar oluşumunu önler.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az olsa da, bitkiler düzenli olarak kontrol edilmelidir. Elma iç kurdu gibi zararlılara karşı biyolojik mücadele yöntemleri kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

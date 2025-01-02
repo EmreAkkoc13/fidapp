@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a01domates" />
+
+            <TextView
+
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Balkonda Domates Yetiştirme"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:text="Güneşli Alan Seçimi: Domatesler güneş ışığını sever, bu yüzden balkonda günde en az 6-8 saat güneş alan bir yer seçin. Güney cepheli bir balkon idealdir.\n\n Saksı ve Toprak: Domates için derin ve geniş saksılar kullanın (en az 30 cm derinlik). İyi drene olan, organik madde bakımından zengin ve besleyici bir toprak tercih edin.\n\nDüzenli Sulama: Domatesler suya çok ihtiyaç duyar, ancak suyun saksıda birikmemesine dikkat edin. Sulama yaparken toprağı eşit şekilde nemli tutmaya özen gösterin. Sabah erken saatlerde sulamak en iyisidir.\n\nDestek Sağlama: Domatesler büyüdükçe dalları ağırlaşır. Bu yüzden bir kafes veya sırık kullanarak bitkileri destekleyin.\n\nGübreleme: Büyüme döneminde haftada bir kez sıvı organik gübre ile besleyin. Domatesler özellikle azot, fosfor ve potasyum açısından zengin gübrelerden faydalanır.\n\nBudama: Bitkinin daha fazla meyve vermesi için yan dalları ve sürgünleri budayın. Bu, bitkinin enerjisini meyvelere yönlendirmesine yardımcı olur.\n\nZararlı ve Hastalık Kontrolü: Zararlı böceklere karşı düzenli kontroller yapın. Bitkilere zarar verebilecek yaprak bitleri ve tırtıllara karşı doğal böcek ilaçları veya sabunlu su kullanabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Domates Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sisteminde, domatesler için hidroponik (topraksız tarım) veya aeroponik sistemler kullanılabilir. Bu sistemler, köklerin sabit besin çözeltisi ile beslendiği yapılar sunar.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gereklidir. Domatesler, büyüme aşamalarına göre değişen spektrumlarda LED ışıklandırma ile desteklenir. Domateslerin çiçeklenme ve meyve verme aşamalarında kırmızı spektrumlu ışık önemlidir.\n\nBesin Çözeltisi: Hidroponik sistemlerde, bitkilerin kökleri doğrudan besin çözeltisinden beslenir. Domatesler için azot, fosfor ve potasyum açısından zengin besin çözeltileri kullanın.\n\nDikey Destek Sistemleri: Domates bitkileri dikey olarak büyüdüğü için, bitkilerin yukarı doğru büyümesini desteklemek amacıyla kafes, tel veya ip sistemleri kullanın.\n\nSulama ve Nem Kontrolü: Hidroponik sistemlerde sulama otomatik olarak yapılır ve domates bitkileri sürekli nemli tutulur. Nem seviyesini kontrol altında tutmak, kök çürümesini engellemek açısından önemlidir.\n\nHava Sirkülasyonu: Dikey tarım sistemlerinde yeterli hava sirkülasyonu sağlanmalıdır. Hava akışı, bitkilerin mantar ve diğer hastalıklardan korunmasına yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlı böceklerin yayılma riski daha azdır, ancak domates bitkilerini düzenli olarak kontrol etmek yine de önemlidir. Biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

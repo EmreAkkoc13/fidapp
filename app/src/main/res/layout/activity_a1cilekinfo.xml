@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a12cilek" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Çilek Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Güneşli Alan Seçimi: Çilekler bol güneşi sever, bu yüzden balkonda günde en az 6 saat güneş alan bir yer seçin. Sabah güneşi alan bir yer en iyisidir.\n\n Saksı ve Toprak: Geniş ve derin saksılar veya sarkıtma saksılar kullanarak çileklerin rahatça büyümesini sağlayın. İyi drene olan, besin açısından zengin ve organik maddeler içeren bir toprak tercih edin.\n\nSulama: Çilek bitkileri düzenli sulama ister, ancak toprağın su altında kalmamasına dikkat edin. Toprak hafif nemli olmalı. Sulama sabah erken saatlerde yapılmalı ve yapraklar ıslatılmamalıdır.\n\nGübreleme: Büyüme döneminde haftada bir kez sıvı organik gübre ile bitkileri destekleyin. Çilekler fosfor ve potasyum açısından zengin gübrelere ihtiyaç duyar.\n\nBudama ve Hasat: Çileklerin daha iyi büyümesi için kurumuş yaprakları ve eski meyveleri temizleyin. Olgunlaştığında parlak kırmızı çilekleri toplayın.\n\nDestek ve Zararlı Kontrolü: Çilek bitkilerini rüzgar ve zararlılardan korumak için düzenli kontroller yapın. Zararlı böceklere karşı doğal böcek ilaçları veya sabunlu su kullanabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Çilek Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sisteminde çilekler için hidroponik veya aeroponik sistemler kullanılabilir. Bu sistemler, köklerin doğrudan besin çözeltisi ile beslendiği yapılardır. Duvara monte edilmiş saksı modülleri de kullanılabilir.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma (LED) kullanılır. Çilekler için 12-16 saat gün ışığını simüle eden beyaz spektrumda LED ışık kullanabilirsiniz.\n\nBesin Çözeltisi: Hidroponik sistemlerde besin açısından dengeli çözeltiler kullanılır. Çilekler azot, fosfor ve potasyum açısından zengin besin solüsyonlarına ihtiyaç duyar.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Köklerin sürekli nemli kalması sağlanmalı, ancak suyun birikmemesine dikkat edilmelidir. Nem seviyesi %70-80 arası ideal kabul edilir.\n\nDestek Sistemleri: Çilek bitkileri yayılabilir, bu nedenle bazı dikey sistemlerde bitkiler için küçük kafesler veya teller kullanılarak dallar desteklenebilir.\n\nHava Sirkülasyonu: İç mekan dikey tarım sisteminde hava sirkülasyonu önemlidir. Çilek bitkileri yeterli hava akışına ihtiyaç duyar, bu da mantar hastalıklarını önler.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az olur, ancak düzenli kontroller önemlidir. Zararlıların yayılmasını önlemek için biyolojik mücadele veya doğal böcek ilaçları kullanabilirsiniz."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

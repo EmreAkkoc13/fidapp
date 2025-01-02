@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm Kur"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:numbersTextColor="@color/black"
+        android:numbersBackgroundColor="@color/black"
+        android:numbersSelectorColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:numbersInnerTextColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm Kur"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmkapat"
+        android:layout_marginTop="20dp"
+        android:text="Alarmı kapa" />
+
+</LinearLayout>

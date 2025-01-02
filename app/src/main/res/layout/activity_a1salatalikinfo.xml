@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a02salatalik" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Salatalık Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Salatalık kökleri geniş alanlara ihtiyaç duyar. En az 30-40 cm derinliğinde ve 40 cm çapında geniş saksılar kullanın. Derin ve geniş saksılar, köklerin sağlıklı gelişmesini sağlar.\n\n Güneşli Alan Seçimi: Salatalıklar bol güneş ışığını sever. Balkonda günde en az 6-8 saat doğrudan güneş ışığı alan bir yer seçin. Güney cepheli alanlar idealdir.\n\nToprak: İyi drene olan, besin açısından zengin ve organik madde içeren toprak kullanın. Toprağın hafif asidik veya nötr pH'da olması idealdir. Toprağın hava almasını ve suyun drene olmasını sağlamak için torf, kompost veya gübre ekleyebilirsiniz.\n\nFide Ekim: Salatalık tohumlarını doğrudan saksıya ekebilir veya önceden fide yetiştirebilirsiniz. Tohumları toprağa 1-2 cm derinliğe ekin ve üzerini hafifçe örtün. Fide kullanıyorsanız, fideleri doğrudan saksıya dikin.\n\nSulama: Salatalıklar düzenli ve dengeli sulama ister. Toprağı nemli tutun, ancak suyun saksıda birikmesini önleyin. Özellikle meyve verme döneminde sulama sıklığını artırabilirsiniz.\n\nGübreleme: Salatalıklar için azot, fosfor ve potasyum açısından dengeli gübreler kullanabilirsiniz. Büyüme dönemi boyunca, her 3-4 haftada bir organik gübre uygulayarak bitkinin sağlıklı büyümesini destekleyin.\n\nDestekleme: Salatalık bitkileri yukarı doğru büyüyebilir, bu yüzden bir kafes veya tel örgü kullanarak bitkileri yukarı doğru yönlendirin. Bu, meyvelerin temiz ve düzgün büyümesini sağlar.\n\nHasat: Salatalıklar, meyveler yeterince büyük ve rengi canlı olduğunda hasat edilir. Genellikle 5-10 cm uzunluğunda hasat edilir, ancak türüne bağlı olarak bu uzunluk değişebilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Salatalık Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda salatalık yetiştirmek için sığ, geniş hidroponik modüller veya asma sistemleri kullanabilirsiniz. Salatalık kökleri geniş bir alana ihtiyaç duyar, bu yüzden derin ve geniş modüller tercih edilmelidir.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gerekebilir. Salatalıklar için günde 12-16 saat arasında beyaz LED ışık sağlamak idealdir. Işıklandırma, bitkinin sağlıklı gelişimini ve meyve oluşumunu destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde, salatalıklar için azot, fosfor ve potasyum açısından dengeli bir besin çözeltisi kullanılır. Çözeltinin pH seviyesi 5.5-6.5 arasında olmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Salatalık köklerinin sürekli nemli kalması sağlanmalı, ancak su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nDestek Sistemleri: Salatalık bitkileri yukarı doğru büyüyebilir, bu yüzden bitkileri destekleyen kafesler veya askılar kullanabilirsiniz. Bu, bitkilerin düzenli ve sağlıklı büyümesini sağlar.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Salatalıklar için yeterli hava akışı, mantar ve diğer hastalıkların önlenmesine yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az görülür, ancak düzenli kontroller yapılmalıdır. Zararlılara karşı biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

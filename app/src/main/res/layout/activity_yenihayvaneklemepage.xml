@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hayvanrecycler"
+    tools:context="yenihayvaneklemepage">
+    <EditText
+        android:id="@+id/hayvanname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hayvanturu"
+        android:layout_alignEnd="@+id/hayvanturu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="49dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Arkadaşımızın Adı:"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/hayvanturu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/hayvanage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="340dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Türü:"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/hayvanage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/hyvanaciklama"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="248dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Yaşı:"
+        android:inputType="text|textPhonetic"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/hyvanaciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="145dp"
+        android:editable="true"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Kısa açıklama"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/baseline_save_25" />
+
+
+    <ImageView
+        android:id="@+id/hayvaneklepp"
+        android:layout_above="@+id/hayvanname"
+        android:layout_alignEnd="@+id/hayvanname"
+        android:contentDescription="Hayvan resmi"
+        app:srcCompat="@drawable/cart"
+
+        android:layout_width="139dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="85dp"
+        android:background="@color/white"
+       />
+
+</RelativeLayout>

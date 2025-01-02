@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a13kavun" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Kavun Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Kavunlar geniş ve derin saksılar gerektirir. En az 40-50 cm derinlikte ve 50 cm çapında bir saksı kullanın. Köklerinin rahatça gelişmesi için geniş bir alan sunmalısınız.\n\n Güneşli Alan Seçimi: Kavunlar bol güneş ışığına ihtiyaç duyar. Balkonda günde en az 6-8 saat güneş alan bir yer seçin. Güney cepheli bir balkon idealdir.\n\nToprak: İyi drene olan, besin açısından zengin ve organik madde içeren toprak kullanın. Toprağı gevşeterek köklerin rahatça gelişmesini sağlayın.\n\nTohum Ekim: Kavun tohumlarını doğrudan saksıya ekebilirsiniz. Tohumları 1-2 cm derinliğe yerleştirin ve toprağı hafifçe örtün. Tohumlar genellikle 7-10 gün içinde filizlenir.\n\nSulama: Kavunlar düzenli ve bol sulama gerektirir. Toprağı sürekli nemli tutun, ancak suyun birikmesini önleyin. Özellikle meyve verme döneminde su ihtiyacı artar.\n\nDestek Sağlama: Kavun bitkileri yayılabilir, bu yüzden bir kafes veya destek sistemi kullanarak bitkinin yukarı doğru büyümesini sağlayabilirsiniz. Meyveler ağırlaştığında desteklemek için bir askı veya file kullanabilirsiniz.\n\nGübreleme: Kavunlar hızlı büyüdüğü için bol besin ister. Azot, fosfor ve potasyum açısından zengin gübreler kullanarak bitkinin sağlıklı gelişmesini destekleyin.\n\nHasat: Kavunlar olgunlaştığında meyve kabuğu parlak ve kokulu olur. Olgunlaşmış meyveler sapından kolayca kopar. Kavunun tatlı olup olmadığını test ederek hasat yapabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Dikey Tarım Sisteminde Kavun Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda, kavunlar için geniş ve derin modüller veya tüpler kullanılır. Köklerinin geniş alanlara ihtiyacı olduğu için derin hidroponik sistemler tercih edilebilir.\n\n Işıklandırma: Dikey tarımda yapay ışıklandırma kullanılır. Kavunlar için 12-16 saat arasında beyaz LED ışıklandırma sağlamak gerekir. Güneş ışığını simüle eden ışıklar, meyve gelişimini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde kavunlar için azot, fosfor ve potasyum açısından dengeli bir besin çözeltisi kullanılır. Çözeltinin pH seviyesi 6.0-6.8 arasında tutulmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Köklerin sürekli nemli kalması sağlanmalı, ancak su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nDestek Sistemleri: Kavun bitkileri yayılma eğilimindedir, bu yüzden bitkileri yukarı doğru destekleyen kafesler veya askılar kullanabilirsiniz. Meyveleri desteklemek için özel fileler veya askılar kullanmak gerekebilir.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Kavunlar için yeterli hava akışı, mantar ve diğer hastalıkların önlenmesine yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlı riski daha azdır, ancak bitkileri düzenli olarak kontrol etmek önemlidir. Zararlılara karşı biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

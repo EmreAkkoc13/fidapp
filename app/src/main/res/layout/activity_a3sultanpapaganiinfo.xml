@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a03sultanpapagani" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sultan Papağanı Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Sultan papağanlarının dengeli bir diyetle beslenmesi sağlıklı olmaları açısından çok önemlidir.\n
+Yem Seçimi: Sultan papağanları için özel olarak üretilmiş tohum karışımları kullanılabilir. Ek olarak, taze sebzeler (havuç, ıspanak, brokoli) ve meyveler (elma, armut, muz) diyetlerine dahil edilmelidir.\n
+Su: Taze ve temiz içme suyu her zaman erişilebilir olmalıdır. Su kabı her gün temizlenmelidir.\n
+Vitamin Takviyesi: Özellikle üreme dönemlerinde ve tüy dökme zamanlarında vitamin takviyeleri kullanmak faydalıdır.\n\n
+2. Kafes ve Ekipman:\n
+Sultan papağanının yaşadığı ortamın sağlıklı ve konforlu olması için doğru kafes seçimi ve düzenlemesi önemlidir.\n
+Kafes Boyutu: Sultan papağanları için yeterince büyük bir kafes seçmelisiniz. Papağanlar geniş alanlarda rahat eder, en az 50x50x60 cm boyutlarında bir kafes uygun olacaktır.\n
+Kafes Konumu: Kafesi cereyanda olmayan, güneş gören, ama direkt güneş ışığı almayan bir yere yerleştirin. Ayrıca kafesi evin çok hareketli olmayan bir yerine koyarak streslerini azaltabilirsiniz.\n
+Tünekler: Farklı kalınlıkta doğal ağaç tünekler kullanmak papağanın ayak sağlığı için faydalıdır. Plastik tünekler ayaklarda deformasyonlara yol açabilir.\n
+Oyuncaklar: Sultan papağanları zeki ve meraklı kuşlardır, bu yüzden kafeslerine çeşitli oyuncaklar, salıncaklar ve çanlar ekleyerek zihinsel uyarılmalarını sağlayabilirsiniz.\n\n
+3. Temizlik ve Hijyen:\n
+Papağanların sağlıklı kalması için kafes ve ekipman temizliği düzenli yapılmalıdır.\n
+Kafes Temizliği: Kafes tabanını her gün temizleyin ve haftada bir kez tamamen yıkayın. Tünekler, yemlikler ve su kapları da sık sık temizlenmelidir.\n
+Banyo: Sultan papağanları suya bayılır. Banyo yapabilecekleri bir su kabı sağlayarak tüylerinin temizlenmesine yardımcı olabilirsiniz. Haftada bir kez banyo yapmaları yeterli olacaktır.\n\n
+4. Sosyal İhtiyaçlar ve İlgi:\n
+Sultan papağanları sosyal canlılardır ve ilgiye ihtiyaç duyarlar.\n
+Etkileşim: Sultan papağanları sahipleriyle bağ kurar. Onlarla düzenli olarak vakit geçirin ve konuşun. Zaman zaman kafes dışına çıkarıp, güvenli bir alanda serbest bırakabilirsiniz.\n
+Sosyalleşme: Eğer zamanınızın çoğunu ev dışında geçiriyorsanız, birden fazla sultan papağanı besleyerek onların yalnız kalmasını önleyebilirsiniz. Ancak, yeni bir papağan eklerken yavaş ve dikkatli bir tanıtım süreci gereklidir.\n\n
+5. Tüy Bakımı:\n
+Sultan papağanlarının tüy sağlığı genel sağlıkları için önemlidir.\n
+Tüy Dökme: Yılda iki kez tüy dökme dönemine girerler. Bu süreçte tüy bakımına ekstra özen göstermek gerekir.\n
+Tırnak Kesimi: Sultan papağanlarının tırnakları uzayabilir. Tırnaklar çok uzarsa dikkatlice kesilmelidir. Bu işlem için veterinerden yardım alabilirsiniz.\n\n
+6. Sağlık ve Veteriner Kontrolleri:\n
+Sultan papağanlarının sağlıklı kalması için düzenli veteriner kontrolleri şarttır.\n
+Hastalık Belirtileri: Halsizlik, iştah kaybı, kabarık tüyler veya solunum zorluğu gibi belirtiler fark ederseniz, zaman kaybetmeden veterinere danışın.\n
+Vitamin Takviyeleri: Veterinerin tavsiyesiyle papağanınıza ek vitamin veya mineral takviyeleri sağlayabilirsiniz.\n
+Düzenli Kontroller: Sultan papağanlarının genel sağlık durumlarını kontrol ettirmek için yılda en az bir kez veterinere gitmek faydalıdır.\n\n
+7. Eğitim ve Konuşma Yeteneği:\n
+Sultan papağanları eğitilebilir kuşlardır ve bazıları konuşmayı öğrenebilir.\n
+Konuşma Eğitimi: Düzenli tekrarlar ve sabırlı eğitim ile basit kelimeler öğrenebilirler. Öğrenme hızları kuştan kuşa farklılık gösterir.\n
+Eldeki Eğitim: Sultan papağanınızı elinize alıştırmak ve güven ilişkisi kurmak için sabırlı olun. El eğitimine erken yaşta başlamak daha etkili olur.\n\n"
+
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

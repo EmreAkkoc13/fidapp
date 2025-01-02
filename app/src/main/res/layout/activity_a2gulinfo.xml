@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a28gul" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Gül Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Güller geniş kök sistemine sahip oldukları için büyük ve derin saksılara ihtiyaç duyar. En az 30 cm derinliğinde ve geniş bir saksı seçmelisiniz. Drenaj deliklerine sahip saksılar tercih edilmeli, çünkü güller fazla suya karşı hassastır.\n\n Toprak: Güçlü güller için besleyici, organik madde açısından zengin ve iyi drene olan toprak kullanılmalıdır. Gül fidanı ekiminde gübre karıştırılmış bahçe toprağı ya da hazır çiçek toprağı tercih edilebilir. Toprağın hafif asidik olması (pH 6-6,5) güllerin sağlıklı büyümesine yardımcı olur.\n\nIşık: Güller bol güneş ışığını sever, bu nedenle günde en az 5-6 saat doğrudan güneş ışığı alacakları bir konuma yerleştirilmelidir. Balkonunuzda en çok güneş gören yeri tercih edin. Yetersiz ışık, gül çiçeklerinin küçülmesine ve bitkinin zayıflamasına neden olabilir.\n\nSulama: Güller suyu sever ama köklerde su birikmesi bitkiyi çürütebilir. Yaz aylarında, toprağın yüzeyi kurudukça sulanmalıdır. Sulama yaparken yapraklardan kaçınıp toprağa doğrudan su verilmelidir. Aşırı nem güllerde mantar hastalıklarına neden olabilir.\n\nGübreleme: Güller besine ihtiyaç duyar. İlkbahardan sonbahara kadar, her 4-6 haftada bir sıvı veya granül gübreyle besleme yapılmalıdır. Azot, fosfor ve potasyum içeren gübreler tercih edilmelidir. Bu besinler, bitkinin sağlıklı çiçekler vermesini sağlar.\n\nBudama: Gülleri düzenli olarak budamak, daha güçlü büyümelerine ve daha fazla çiçek üretmelerine yardımcı olur. İlkbaharda kuru, hasarlı veya zayıf dalları keserek bitkinin daha sağlıklı bir şekilde büyümesini teşvik edebilirsiniz. Ayrıca solmuş çiçekleri düzenli olarak kesmek, yeni çiçeklerin açmasını sağlar.\n\nSıcaklık ve İklim: Güller ılıman iklimi sever ve 15-25°C sıcaklık aralığında en iyi şekilde gelişirler. Balkonda gülleri aşırı sıcak ve rüzgârlı ortamlardan korumak önemlidir. Soğuk havalarda bitkilerin köklerinin donmaması için koruma sağlanmalıdır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Gül Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Gül yetiştirmek için dikey tarım modülleri, kök gelişimine uygun genişlikte olmalıdır. Özellikle geniş köklü gül bitkileri için daha büyük ve sağlam modüller kullanılmalıdır. Modüllerin iyi drenaj sunduğundan emin olun.\n\n Hidroponik Sistem: Dikey tarım sisteminde güller hidroponik yöntemle de yetiştirilebilir. Bu sistemde besin çözeltisi, gül bitkisine düzenli olarak sağlanır. Gül yetiştirirken köklere gerekli besinlerin ulaşmasını sağlayan bir besin çözeltisi kullanılmalıdır. Ayrıca, hidroponik sistemde su ve hava dengesini korumak güllerin sağlıklı büyümesi açısından kritik önem taşır.\n\nIşıklandırma: Dikey tarım sistemlerinde, doğal güneş ışığı yetersiz olduğunda yapay LED bitki ışıkları kullanılabilir. Güllerin sağlıklı büyümesi için günlük 8-10 saat ışık gereklidir. LED ışıklar, ışık spektrumu kontrol edilebildiği için gül yetiştirme sürecine uygundur.\n\nBesin Çözeltisi: Güller, hidroponik sistemlerde özel olarak formüle edilmiş besin çözeltilerine ihtiyaç duyar. Yeterli azot, fosfor ve potasyum içeren gübreler kullanılarak bitkinin ihtiyaç duyduğu besinler sağlanmalıdır.\n\nNem ve Sıcaklık Kontrolü: Dikey tarım sistemlerinde nem ve sıcaklık kontrolü dikkatlice yapılmalıdır. Güller, fazla neme karşı hassas oldukları için ortamın havalandırması iyi olmalıdır. Sıcaklık 15-25°C aralığında tutulmalıdır. Aşırı sıcaklık, bitkilerin kurumasına neden olabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

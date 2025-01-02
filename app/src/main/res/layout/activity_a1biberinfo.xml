@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a04biber" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Balkonda Biber Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güneşli Alan Seçimi: Biberler bol güneş sever, bu nedenle balkonda günde en az 6-8 saat güneş alan bir yer seçin.\n\n Saksı ve Toprak: Derin ve geniş saksılar tercih edin. İyi drene olan, besin açısından zengin ve organik madde içeren bir toprak kullanın.\n\nDüzenli Sulama: Biberleri düzenli olarak sulayın. Toprağın nemli kalmasını sağlayın ancak aşırı sulamaktan kaçının. Toprağın yüzeyi kurudukça sulama yapın.\n\nDestek Sağlama: Biber bitkileri büyüdükçe bir sırık veya kafes ile destekleyerek dalların kırılmasını önleyebilirsiniz.\n\nGübreleme: Büyüme döneminde bitkileri organik gübre ile destekleyin.\n\nZararlı Kontrolü: Zararlılara ve hastalıklara karşı düzenli kontroller yaparak bitkilerin sağlıklı kalmasını sağlayın."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Dikey Tarım Sisteminde Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:text="Modül Seçimi: Dikey tarım sistemlerinde, hidroponik veya aeroponik sistemler kullanılabilir. Biber için derin köklere izin veren modüller tercih edilmelidir.\n\nIşıklandırma: İç mekan dikey tarım sistemlerinde yapay ışıklandırma (LED) kullanılır. Biberler için büyüme aşamalarına göre doğru spektrumda ışık sağlanmalıdır.\n\n Besin Solüsyonu: Hidroponik sistemde besin açısından dengeli bir çözeltinin kullanılması önemlidir. Biberler potasyum ve azot açısından zengin bir besin solüsyonu ister.\n\nSulama ve Nem Kontrolü: Dikey tarım sisteminde otomatik sulama yapılır. Köklerin sürekli nemli kalması sağlanmalı, ancak köklerin suya boğulmadığına dikkat edilmelidir.\n\nHava Dolaşımı: Dikey tarımda yeterli hava dolaşımı sağlanmalıdır. Nem ve hava akışı, bitkilerin sağlıklı gelişimi için önemlidir.\n\nZararlı ve Hastalık Kontrolü: Kapalı sistemlerde zararlıların yayılması daha hızlı olabilir. Bitkilerin düzenli kontrol edilmesi ve gerekirse biyolojik mücadele yöntemleri uygulanması önemlidir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a16nar" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:text="Balkonda Nar Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Nar ağaçları köklerinin genişlemesi için yeterli alan gerektirir. En az 50 cm derinliğinde ve 50 cm çapında geniş saksılar kullanın. Köklerin rahatça gelişmesi için derin ve geniş saksılar tercih edilmelidir.\n\n Güneşli Alan Seçimi: Nar ağaçları bol güneş ışığına ihtiyaç duyar. Balkonda günde en az 6-8 saat doğrudan güneş ışığı alan bir yer seçin. Güney cepheli bir balkon idealdir.\n\nToprak: İyi drene olan, besin açısından zengin ve hafif asidik toprak kullanın. Nar ağaçları için organik madde bakımından zengin bir toprak karışımı uygundur. Toprağın iyi havalanması ve suyun drene olması önemlidir.\n\nFide Ekim: Nar bitkisini tohumdan yetiştirebilirsiniz, ancak fidan almak daha hızlı sonuç verebilir. Fidanları doğrudan saksıya dikin ve köklerin yayılması için saksının tabanına yeterli derinlik bırakın.\n\nSulama: Nar bitkileri düzenli sulama ister. Toprağı nemli tutun, ancak suyun saksıda birikmesini önleyin. Özellikle yaz aylarında sulama sıklığını artırabilirsiniz.\n\nGübreleme: Nar ağaçları için azot, fosfor ve potasyum açısından dengeli bir gübre kullanabilirsiniz. Büyüme dönemi boyunca, her 4-6 haftada bir organik veya dengeli gübre uygulayın.\n\nDestekleme: Genç nar ağaçları, dik durmaları için desteklenmelidir. Özellikle meyve vermeye başladıklarında, meyvelerin ağırlığını taşıyabilmek için destek gerekebilir.\n\nHasat: Nar meyveleri olgunlaştığında rengi parlak ve sertleşir. Olgunlaşma döneminde meyve kabuğu renklenecek ve hafifçe matlaşacaktır. Meyveleri dikkatlice keserek hasat edin."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Nar Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda nar yetiştirmek için geniş ve derin modüller veya asma sistemleri kullanılır. Köklerin genişlemesi için derin ve geniş bir alan sağlayacak modüller tercih edilmelidir.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gerekebilir. Nar bitkileri için günde 12-16 saat arasında beyaz LED ışık sağlamak idealdir. Güneş ışığını simüle eden ışıklar, bitkinin sağlıklı gelişimini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde, nar bitkileri için azot, fosfor ve potasyum açısından dengeli bir besin çözeltisi kullanılır. Çözeltinin pH seviyesi 6.0-6.5 arasında olmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Köklerin sürekli nemli kalması sağlanmalı, ancak su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nDestek Sistemleri: Nar bitkileri için yukarı doğru destekleme sistemleri kullanılır. Meyvelerin ağırlığını taşıyacak destekler ve askılar kullanılabilir.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Nar bitkileri için yeterli hava akışı, mantar ve hastalıkların önlenmesine yardımcı olur.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlı riski daha azdır, ancak bitkileri düzenli olarak kontrol etmek önemlidir. Zararlılara karşı biyolojik mücadele veya doğal yöntemler kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

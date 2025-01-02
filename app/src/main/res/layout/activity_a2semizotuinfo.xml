@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a19semizotu" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda ve Dikey Tarım Sisteminde Semizotu (Portulaca oleracea) Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Semizotu, besleyici yapraklarıyla bilinen ve sıcak iklimlerde kolayca yetiştirilebilen bir bitkidir. Balkonda ve dikey tarım sisteminde semizotu yetiştirmek için şu adımları izleyebilirsiniz:\n\n Saksı ve Dikey Sistem Seçimi:\n\nSaksı: Geniş, derinliği yeterli ve drenaj delikleri olan saksılar kullanın. Semizotu kökleri genişlemedikçe derinliği çok önemli değildir, ancak iyi bir drenaj sağlanmalıdır.\nDikey Tarım Sistemi: Dikey tarım sistemlerinde, bitki çantaları, merdivenler veya dikey bahçe sistemleri kullanılabilir. Semizotu, fazla yer kaplamadan verimli şekilde yetişebilir, bu yüzden dikey sistemler için uygundur.\n\nToprak:\n\nSemizotu, iyi drene olan ve hafif kumlu toprakları tercih eder. pH değeri 6-7 arasında olan topraklar idealdir. Toprağın içine biraz kum veya perlit ekleyerek drenaj özelliklerini artırabilirsiniz.\nDikey tarım sistemlerinde kullanılacak toprak, hafif ve hava geçirgen olmalıdır. Toprağın besin açısından zengin olması, bitkinin sağlıklı büyümesini destekler.\n\nIşık:\n\nSemizotu, bol güneş ışığı almayı sever. Günde en az 6 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, bitkinin yapraklarının bol ve sağlıklı olmasını sağlar. Dikey sistemlerde bitkilerin yeterli ışık aldığından emin olun.\n\nSulama:\n\nSemizotu, az su isteyebilir ve kuraklığa dayanıklıdır. Toprağın üst kısmı kurudukça sulama yapmalısınız. Aşırı sulama kök çürümesine neden olabilir, bu yüzden sulama sırasında toprağın nem seviyesini kontrol edin.\nDikey sistemlerde sulama, toprak karışımının eşit şekilde nemlenmesini sağlayacak şekilde yapılmalıdır.\n\nGübreleme:\n\nSemizotu fazla gübrelemeye ihtiyaç duymaz. İlkbahar ve yaz aylarında, her 4-6 haftada bir dengeli bir bitki gübresi uygulayabilirsiniz. Kış aylarında gübreleme sıklığını azaltabilirsiniz. Gübrelemede ölçülü olun, fazla gübre bitkinin sağlığını olumsuz etkileyebilir.\n\nSıcaklık:\n\nSemizotu, sıcak havaları sever ve 20-30°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı dayanıklıdır, ancak donlardan korunmalıdır. Kış aylarında bitkinin soğuk rüzgarlardan ve aşırı soğuklardan korunması gerekir.\n\nHava Akışı:\n\nSemizotu iyi hava akışını sever. Dikey tarım sistemlerinde ve balkonda, bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Bu, hastalıkların ve zararlıların oluşumunu önlemeye yardımcı olur.\n\nBudama:\n\nSemizotu genellikle budama gerektirmez, ancak ölü veya solmuş yaprakları temizlemek bitkinin sağlıklı görünümünü korur. Bitkilerin düzenli olarak kontrol edilmesi, hastalıkların erken aşamalarda tespit edilmesine yardımcı olabilir.\n\nEk İpuçları:\n\nSemizotu, yüksek sıcaklık ve güneş ışığı altında iyi gelişir, bu yüzden yaz aylarında bol bol güneş ışığına maruz bırakılmalıdır.\nDikey tarım sistemlerinde, bitkilerin eşit şekilde ışık aldığından emin olun. Bu, bitkilerin dengeli büyümesini sağlar.\nSemizotu, genellikle zararlılara karşı dayanıklıdır, ancak dikkatli olunmalıdır. Yapraklarda mantar hastalıkları veya zararlılar oluşabilir, bu yüzden düzenli olarak bitkiyi kontrol edin.\n\nBalkonda ve dikey tarım sisteminde semizotu yetiştirirken, bitkinin ışık, sulama, toprak ve sıcaklık ihtiyaçlarına dikkat ederek sağlıklı ve verimli bir bitki elde edebilirsiniz. Semizotu, düşük bakım gerektirdiği için balkonunuza hem estetik hem de besin değeri açısından katkıda bulunabilir."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a07marul" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Marul Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Marul kökleri çok derin olmayacağından, 20-30 cm derinliğinde saksılar yeterlidir. Daha geniş bir yüzey alanı sağlamak da faydalı olabilir.\n\n Güneşli Alan Seçimi: Marul serin havaları sever. Balkonda günde 4-6 saat doğrudan güneş ışığı alan bir yer seçin. Yazın gölgeli alanlar veya sabah güneşi alan yerler daha uygun olabilir.\n\nToprak: İyi drene olan, besin açısından zengin ve organik madde içeren toprak kullanın. Toprağın hafif asidik veya nötr pH'da olması idealdir.\n\nTohum Ekim: Marul tohumlarını doğrudan saksıya ekebilirsiniz. Tohumları toprağa 0.5-1 cm derinliğe yerleştirin ve üzerini hafifçe örtün. Tohumlar genellikle 7-10 gün içinde filizlenir.\n\nSulama: Marul düzenli sulama ister. Toprağı nemli tutun, ancak suyun saksıda birikmemesine dikkat edin. Sulama, sabah erken saatlerde yapılmalıdır.\n\nGübreleme: Marul için hafif, azot açısından zengin organik gübreler kullanabilirsiniz. Büyüme döneminde 2-3 haftada bir gübreleme yaparak bitkinin sağlıklı büyümesini destekleyin.\n\nHasat: Marul yaprakları yeterli büyüklüğe ulaştığında hasat edilebilir. Dış yaprakları keserek bitkinin orta kısmından yeni yaprakların çıkmasını sağlayabilirsiniz. Bu yöntemle sürekli hasat yapabilirsiniz.\n\nZararlı Kontrolü: Marul bitkilerini zararlılardan korumak için düzenli olarak kontrol edin. Bitki hastalıkları ve böcekler için doğal yöntemler veya organik ilaçlar kullanabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Dikey Tarım Sisteminde Marul Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda marul için sığ hidroponik modüller veya duvara monte edilmiş saksılar kullanılır. Dikey sistemler, marul bitkilerinin yüzey alanını en verimli şekilde kullanır.\n\n Işıklandırma: İç mekan dikey tarımda yapay ışıklandırma gerekebilir. Marul için günde 12-16 saat arasında beyaz LED ışık sağlamak idealdir. Işıklandırma, büyüme hızını artırır ve sağlıklı yaprak gelişimini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde marul için dengeli bir besin çözeltisi kullanılır. Azot, fosfor ve potasyum açısından dengeli solüsyonlar kullanarak bitkinin sağlıklı gelişmesini sağlayabilirsiniz. Çözeltinin pH'ı 5.5-6.5 arasında olmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama sistemleri kullanılır. Marul köklerinin sürekli nemli kalması sağlanmalı, ancak aşırı su birikintisi oluşmamalıdır. Hidroponik sistemlerde köklerin düzenli olarak besin çözeltisiyle temas etmesi önemlidir.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu sağlamak önemlidir. Marul için yeterli hava akışı, mantar ve diğer hastalıkların önlenmesine yardımcı olur.\n\nSık Ekim ve Hasat: Dikey tarımda alan verimli kullanılır ve marul bitkileri yoğun şekilde ekilebilir. Marul yapraklarını hasat ederken bitkinin orta kısmından yeni yaprakların çıkmasını sağlayabilirsiniz. Bu, sürekli olarak taze marul elde etmenizi sağlar.\n\nZararlı Kontrolü: Kapalı sistemlerde zararlılar daha az görülür, ancak düzenli kontroller yapılmalıdır. Zararlılara karşı biyolojik mücadele veya doğal ilaçlar kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

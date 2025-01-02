@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fidap"
+        tools:targetApi="31">
+        <activity
+            android:name=".gubresatis"
+            android:exported="false" />
+        <activity
+            android:name=".gubretohum"
+            android:exported="false" />
+        <activity
+            android:name=".bitkiveridetaylari"
+            android:exported="false" />
+        <activity
+            android:name=".yenibitkieklemepage"
+            android:exported="false" />
+        <activity
+            android:name=".bitkilerimmain"
+            android:exported="false" />
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hayvanveridetaylari"
+            android:exported="false" />
+        <activity
+            android:name=".yenihayvaneklemepage"
+            android:exported="false" />
+        <activity
+            android:name=".hayvanlarimmain"
+            android:exported="false" />
+        <activity
+            android:name=".pazarsayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".EmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hesabim"
+            android:exported="false" />
+        <activity
+            android:name=".a3sultanpapaganiinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3akvaryumbailigiinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3hamsterinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3sukaplumbagasiinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3muhabbetkusuinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3tavsaninfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3kopekinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a3kediinfo"
+            android:exported="false" />
+        <activity
+            android:name=".hayvanmenu"
+            android:exported="false" />
+        <activity
+            android:name=".a2gulinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2feslegeninfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2devetabaniinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2dereotuinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2biberiyeinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2benjamininfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2bariscicegiinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2aleoverainfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2afrikameneksesiinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2semizotuinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2sardunyainfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2philodendroninfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2pasakiliciinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2papatyainfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2orkideinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2naneinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2maydonozinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2kekikinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a2kadifeinfo"
+            android:exported="false" />
+        <activity
+            android:name=".bitki"
+            android:exported="false" />
+        <activity
+            android:name=".a1narinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1bodurelmainfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1karpuzinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1kavuninfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1cilekinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1havucinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1patatesinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1marulinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1ispanakinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1soganinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1biberinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1patlicaninfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1salatalikinfo"
+            android:exported="false" />
+        <activity
+            android:name=".a1domatesinfo"
+            android:exported="false" />
+        <activity
+            android:name=".meyveler"
+            android:exported="false" />
+        <activity
+            android:name=".bahcemenu"
+            android:exported="false" />
+        <activity
+            android:name=".anamenuu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>

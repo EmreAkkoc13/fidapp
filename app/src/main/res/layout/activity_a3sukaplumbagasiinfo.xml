@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a05sukaplumbagasi" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Su Kaplumbağası Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Su kaplumbağaları, dengeli bir diyetle beslenmelidirler.\n
+Kaplumbağa Yemi: Su kaplumbağaları için özel olarak hazırlanmış pelet yemleri, temel besin kaynağı olarak kullanılabilir.\n
+Taze Sebzeler: Kaplumbağanızın diyetine marul, ıspanak, havuç gibi taze sebzeler ekleyebilirsiniz. Sebzeler onların sağlıklı kalmaları için gerekli olan vitamin ve mineralleri sağlar.\n
+Protein Kaynakları: Genç su kaplumbağalarının gelişimi için protein önemlidir. Haftada birkaç kez canlı yem (solucan, küçük balıklar) veya haşlanmış tavuk verebilirsiniz.\n
+Su: Su kaplumbağaları, hem karada hem de suda yaşayabilen hayvanlar oldukları için, her zaman temiz suya ihtiyaç duyarlar. Su değişimini düzenli yaparak hijyen sağlanmalıdır.\n\n
+2. Yaşam Alanı ve Akvaryum Düzeni:\n
+Su kaplumbağalarının sağlıklı gelişebilmesi için doğru bir akvaryum düzeni oluşturulmalıdır.\n
+Akvaryum Boyutu: Su kaplumbağalarının yaşam alanları geniş olmalıdır. Kaplumbağanızın rahatça yüzebilmesi için büyük bir akvaryum seçin. Akvaryumun hacmi, kaplumbağanın boyutuna ve sayısına göre belirlenmelidir.\n
+Karasal Alan: Su kaplumbağalarının karada dinlenmeleri için akvaryumda bir karasal alan bulunmalıdır. Kaplumbağanızın tamamen kuruyabileceği bir alan sağlamak, onların cilt sağlığı için önemlidir.\n
+Filtrasyon: Su kaplumbağalarının yaşadığı akvaryumlarda suyun temiz kalması çok önemlidir. Güçlü bir filtre sistemi kullanarak suyu sürekli temiz tutmalısınız.\n
+Isıtma ve Aydınlatma: Su kaplumbağaları soğukkanlı canlılardır ve çevresel ısıya bağlıdırlar. Akvaryumda bir ısıtıcı ile suyu 24-28°C arasında tutmalısınız. Ayrıca UVB ışığı, kaplumbağanın D vitamini sentezi için gereklidir.\n\n
+3. Temizlik ve Hijyen:\n
+Su kaplumbağaları düzenli temizlik gerektirir.\n
+Su Değişimi: Su kaplumbağalarının yaşadığı akvaryumun suyu düzenli olarak değiştirilmelidir. Kirli su, kaplumbağanızın sağlığını olumsuz etkileyebilir. Haftalık kısmi su değişimleri yapılabilir.\n
+Akvaryum Temizliği: Filtre sistemi kullanılmasına rağmen, zamanla akvaryumun tabanında biriken yiyecek artıkları ve dışkılar temizlenmelidir.\n
+Kaplumbağa Kabuk Bakımı: Kaplumbağanızın kabuğunda mantar veya yosun birikmesi varsa, yumuşak bir fırça ile nazikçe temizleyebilirsiniz. Kabuk sağlığı için düzenli güneş ışığı veya UVB lambası ile ışıklandırma sağlanmalıdır.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Su kaplumbağalarının sağlıklı kalması için dikkat edilmesi gereken bazı temel unsurlar vardır.\n
+Kabuk Problemleri: Kaplumbağanızın kabuğunda yumuşama, renk değişikliği veya kabuk dökülmesi fark ederseniz, bu beslenme eksikliğine veya çevresel sorunlara işaret edebilir. Veteriner desteği alınmalıdır.\n
+Solunum Problemleri: Su kaplumbağalarında sıkça görülen bir sorun, solunum yolu enfeksiyonlarıdır. Burun akıntısı, hırıltı veya suyun üzerinde sürekli yüzme gibi belirtiler fark ederseniz, veterinere başvurmalısınız.\n
+Parazitler: Kaplumbağanızın cildinde parazitler veya kabukta lekeler fark ederseniz, bu bir enfeksiyonun belirtisi olabilir. Veterinerin önerisiyle uygun tedavi uygulanmalıdır.\n\n
+5. Sosyal İhtiyaçlar ve İlgi:\n
+Su kaplumbağaları genellikle yalnız yaşamayı tercih eder, ancak yine de ilgi ve bakım gerektirirler.\n
+Sosyalleşme: Su kaplumbağaları diğer evcil hayvanlara kıyasla daha bağımsızdır, ancak onlara ilgi göstermeniz önemlidir. Yüzmelerini izlemek ve onları elle beslemek kaplumbağanızla aranızda bağ kurmanıza yardımcı olabilir.\n
+Diğer Kaplumbağalarla Birlikte Yaşam: Birden fazla su kaplumbağası besliyorsanız, birbirleriyle iyi anlaşıp anlaşmadıklarını gözlemlemelisiniz. Kaplumbağalar zaman zaman agresif davranabilirler, bu yüzden dikkatli olunmalıdır.\n\n
+6. Üreme ve Yumurtlama:\n
+Su kaplumbağaları uygun koşullarda üreyebilirler.\n
+Yumurtlama Alanı: Dişi su kaplumbağaları yumurtlamak için kuru ve güvenli bir alana ihtiyaç duyarlar. Eğer kaplumbağanızın yumurtlayabileceğini düşünüyorsanız, akvaryumda uygun bir yer hazırlayın.\n
+Yavru Bakımı: Yavru kaplumbağalar doğduktan sonra, onların büyümesi ve gelişmesi için uygun ortam sağlanmalıdır. Daha küçük akvaryumlarda yetiştirilmeleri ve daha hassas bakım gereklidir.\n\n
+7. Su Kaplumbağasının Gözlemi ve Sorunlar:\n
+Kaplumbağanızın davranışlarını ve sağlığını yakından takip etmek önemlidir.\n
+İştahsızlık: Su kaplumbağalarında iştah kaybı, stres veya hastalık belirtisi olabilir. Böyle bir durumla karşılaştığınızda veteriner desteği almanız faydalı olacaktır.\n
+Su Üstünde Sürekli Kalma: Kaplumbağanız sürekli suyun üstünde kalıyorsa, bu solunum sorunlarına işaret edebilir. Acilen veterinere başvurulmalıdır.\n
+Davranış Değişiklikleri: Kaplumbağanızın hareketlerinde yavaşlama veya halsizlik fark ederseniz, yaşam koşullarını gözden geçirin ve gerekirse bir veterinerden yardım alın."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a10havuc" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Havuç Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Havuçlar uzun kök geliştirdikleri için derin saksılar kullanın (en az 30 cm derinlik). Geniş ve dikey olarak uzun saksılar havuçlar için idealdir.\n\n Toprak: Gevşek, iyi drene olan ve organik madde bakımından zengin toprak kullanın. Toprağın taşsız ve yumuşak olması, havuç köklerinin düzgün büyümesini sağlar.\n\nTohum Ekim: Havuç tohumlarını doğrudan saksıya ekin. Tohumları toprağa 1-2 cm derinlikte, aralarında yeterli boşluk olacak şekilde yerleştirin. Tohumları ektikten sonra toprağı hafifçe bastırın ve nemli tutun.\n\nSulama: Toprağı sürekli nemli tutmak önemlidir, özellikle filizlenme aşamasında. Ancak toprağın su içinde kalmamasına dikkat edin. Sulama sabah erken saatlerde yapılmalı.\n\nGüneş Işığı: Havuçlar bol güneş sever. Balkonda havuç yetiştirirken günde en az 6 saat güneş alan bir yer tercih edin.\n\nGübreleme: Organik gübreler havuç için idealdir. Özellikle azot açısından zengin olmayan, potasyum ve fosfor bakımından zengin gübreler tercih edilmelidir.\n\nHasat: Havuçlar genellikle 2-3 ay içinde olgunlaşır. Havuçlar yeterince büyük ve parlak renkli olduğunda, kökleri dikkatlice çekerek hasat edin."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Havuç Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarımda havuçlar için geniş ve derin modüller kullanılmalıdır. Hidroponik sistemlerde, köklerin derinliğini sağlayacak özel kaplar veya tüpler tercih edilir.\n\n Işıklandırma: Dikey tarımda yapay ışıklandırma kullanılır. Havuçlar, büyüme aşamalarında günde 12-16 saat arasında ışığa ihtiyaç duyar. Beyaz LED ışık havuçlar için idealdir.\n\nBesin Çözeltisi: Hidroponik sistemlerde havuçlar için azot, potasyum ve fosfor açısından dengeli bir besin çözeltisi sağlanmalıdır. Köklerin güçlü ve düzgün gelişmesi için besin solüsyonunun pH'ı 6.0-6.5 arasında tutulmalıdır.\n\nSulama ve Nem Kontrolü: Dikey tarımda otomatik sulama yapılır. Havuçların köklerinin nemli kalması sağlanmalı, ancak aşırı suya boğulmaması gerekir. Hidroponik sistemlerde suyun sürekli dolaşımı kök gelişimi için idealdir.\n\nHava Sirkülasyonu: İç mekan dikey tarımda hava sirkülasyonu çok önemlidir. Havalandırma kök çürümesini ve mantar hastalıklarını önler.\n\nDestek ve Kök Kontrolü: Havuçların köklerinin düz ve sağlıklı olması için kök büyümesini engelleyen taş gibi maddeler olmamalıdır. Dikey tarımda tüpler veya kanallar kullanıldığında, kökler düz ve sağlıklı şekilde büyüyebilir.\n\nZararlı Kontrolü: Kapalı sistemde zararlı riski daha azdır, ancak havuç bitkilerini düzenli olarak kontrol etmek önemlidir. Zararlılara karşı biyolojik mücadele veya doğal ilaçlar kullanılabilir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

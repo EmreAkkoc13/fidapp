@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a04muhabbetkusu" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhabbet Kuşu Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Muhabbet kuşları dengeli bir beslenme düzenine ihtiyaç duyarlar.\n
+Tohumlar: Muhabbet kuşları için özel olarak hazırlanmış tohum karışımları, onların temel besin kaynağıdır. Fakat yalnızca tohumla beslemek, vitamin ve mineral eksikliklerine yol açabilir.\n
+Taze Sebze ve Meyveler: Muhabbet kuşunuza düzenli olarak taze sebzeler (ıspanak, havuç, marul) ve az miktarda meyve (elma, armut) verebilirsiniz. Ancak meyve miktarını sınırlamak önemlidir, çünkü meyveler fazla şeker içerir.\n
+Mineral Blokları: Kuşunuzun kalsiyum ve diğer mineralleri alabilmesi için kafes içinde bir mürekkep balığı kemiği veya mineral bloğu bulundurabilirsiniz.\n
+Su: Taze ve temiz su her zaman muhabbet kuşunuzun ulaşabileceği bir yerde olmalıdır. Su kabı düzenli olarak temizlenmeli ve su günlük değiştirilmelidir.\n\n
+2. Kafes Düzeni ve Temizlik:\n
+Muhabbet kuşunun sağlığı için temiz ve düzenli bir kafes ortamı şarttır.\n
+Kafes Seçimi: Muhabbet kuşu için geniş, rahat hareket edebileceği bir kafes seçilmelidir. Kafes telleri arasında kuşun sıkışmaması için uygun aralıklarda olmasına dikkat edilmelidir.\n
+Tünekler: Kafeste farklı kalınlık ve materyallerde tünekler bulunmalıdır. Doğal ağaç dalları gibi farklı yüzeyler, kuşun ayak sağlığı için faydalıdır.\n
+Oyuncaklar: Muhabbet kuşları zeki ve meraklı hayvanlardır. Kafeste ayna, zil, tırmanma ipi gibi oyuncaklar bulundurmak, onların zihinsel ve fiziksel sağlığını destekler.\n
+Temizlik: Kafes düzenli olarak temizlenmelidir. Yemek artıkları ve dışkılar bakteriyel enfeksiyonlara yol açabilir.\n\n
+3. Tüy ve Gaga Bakımı:\n
+Muhabbet kuşları tüylerinin sağlıklı olması için bakıma ihtiyaç duyar.\n
+Tüy Bakımı: Muhabbet kuşları tüylerini temizlemek için doğal olarak kendilerini tımar ederler. Ancak zaman zaman su kabına girerek banyo yapabilirler. Küçük bir banyo kabı sağlamak onların temizlenmesine yardımcı olabilir.\n
+Gaga Bakımı: Muhabbet kuşlarının gagaları sürekli büyür. Bu nedenle gagasını törpüleyebilmesi için kafeste mürekkep balığı kemiği veya gaga taşı bulundurulmalıdır.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Muhabbet kuşlarının sağlığına dikkat etmek ve düzenli kontroller önemlidir.\n
+Hastalık Belirtileri: Muhabbet kuşları hastalıklarını gizleme eğiliminde olabilirler. İştah kaybı, tüylerde matlaşma, fazla uyuma veya nefes alma güçlüğü gibi belirtiler fark edilirse hemen bir veterinere başvurulmalıdır.\n
+Tırnak Kesimi: Kuşunuzun tırnakları uzadığında dikkatli bir şekilde kesilmelidir. Eğer tırnaklar çok uzarsa, kuşunuzun rahatça tüneklerde durmasını zorlaştırabilir.\n
+Veteriner Kontrolleri: Kuşunuzun genel sağlık durumu için yılda en az bir kez veterinere götürülmesi önerilir.\n\n
+5. Sosyal İhtiyaçlar ve İlgi:\n
+Muhabbet kuşları sosyal hayvanlardır ve sahipleriyle etkileşim kurmayı severler.\n
+Sosyalleşme: Muhabbet kuşları, yalnız kalmaktan hoşlanmazlar. Onlarla konuşarak, kafes dışında vakit geçirerek sosyalleşmelerine yardımcı olabilirsiniz.\n
+Eğitim: Muhabbet kuşları öğrenmeye açıktır ve eğitilmeye oldukça uygun hayvanlardır. Onlara basit komutlar öğretebilir veya konuşma yeteneği kazandırabilirsiniz.\n
+Oyun: Kuşunuzu kafesten çıkararak ona güvenli bir ortamda serbest uçma fırsatı sunun. Bu, hem zihinsel hem de fiziksel sağlıkları için faydalıdır.\n\n
+6. Çiftleşme ve Kafes Arkadaşı:\n
+Muhabbet kuşları sosyal hayvanlar olduğu için, çiftleşme ve kafes arkadaşları konusuna dikkat edilmelidir.\n
+Kafes Arkadaşı: Eğer birden fazla muhabbet kuşu besleyecekseniz, kuşların birbirine uyum sağlaması için dikkatli bir tanışma süreci geçirmeleri önemlidir. Kuşların birbirleriyle iyi anlaşmaları, mutlu bir yaşam sürmelerine katkıda bulunur.\n
+Üreme: Muhabbet kuşlarının üremesi için özel bir yuvalık gerekebilir. Üreme konusuna girmeyi düşünüyorsanız, bu süreç için yeterli bilgiye ve hazırlığa sahip olmalısınız.\n\n
+7. Muhabbet Kuşunun Gözlemi ve Sorunlar:\n
+Muhabbet kuşunuzu yakından gözlemleyerek olası sağlık sorunlarını erken fark edebilirsiniz.\n
+İştah Kaybı: Muhabbet kuşunuzda iştah kaybı, sağlık sorunlarına işaret edebilir. Özellikle tohum yememeye başladıysa, veteriner desteği almanız gerekebilir.\n
+Davranış Değişiklikleri: Muhabbet kuşları genellikle canlı ve hareketlidir. Eğer kuşunuzda halsizlik, fazla uyuma veya depresyon belirtileri gözlemlerseniz, veterinerinize başvurmanız faydalı olabilir.\n
+Göz ve Burun Akıntıları: Gözlerde sulanma veya burunda akıntı gibi belirtiler, enfeksiyon işaretleri olabilir. Bu durumlarda hızlıca müdahale edilmelidir."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

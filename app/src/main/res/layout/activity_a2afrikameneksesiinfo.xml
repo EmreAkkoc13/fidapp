@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a20afrika_menekesi" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Patlıcan Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Afrika menekşesi küçük ve kompakt bir bitki olduğu için geniş ve derin bir saksıya ihtiyaç duymaz. 10-15 cm çapında küçük bir saksı yeterlidir. Saksının altında iyi drenaj delikleri bulunmalıdır, çünkü su birikmesi kök çürümesine yol açabilir.\n\n Toprak: Afrika menekşesi için iyi drene olan hafif ve besin açısından zengin bir toprak gereklidir. Toprak karışımını torf, perlit ve vermikülit ile zenginleştirerek kullanabilirsiniz. Hazır menekşe toprağı da idealdir, çünkü bu tür toprağın havalandırması iyi olur.\n\nIşık: Afrika menekşesi dolaylı güneş ışığını sever. Direkt güneş ışığı yapraklarını yakabilir, bu yüzden bitkiyi balkonunuzda yarı gölge bir alana yerleştirin. Günde 8-12 saat arasında dolaylı ışık alması, çiçeklenme dönemini teşvik eder.\n\nSulama: Menekşeler fazla sulamaya hassastır. Toprağın üst yüzeyi hafif kuruduğunda sulama yapın. Sulamayı kök hizasından yapın ve yaprakların ıslanmasını önleyin. Alt sulama (saksının altındaki tabağa su koymak) iyi bir yöntemdir. Suyun oda sıcaklığında olması idealdir.\n\nNem: Afrika menekşesi yüksek nemi sever, bu nedenle bitkiyi kuru hava koşullarına maruz bırakmayın. Balkonda nem seviyesini artırmak için saksıyı bir su tepsisinin üzerine yerleştirebilirsiniz (su saksı tabanına temas etmemelidir).\n\nGübreleme: Bitkinin büyüme ve çiçeklenme dönemlerinde (ilkbahar ve yaz aylarında) 2-4 haftada bir sıvı gübre ile besleyebilirsiniz. Afrika menekşesi için özel olarak üretilmiş bir gübre kullanmak çiçeklenmeyi destekler.\n\nSıcaklık: Afrika menekşesi 18-24°C sıcaklık aralığında en iyi şekilde büyür. Ani sıcaklık değişikliklerine ve soğuk rüzgârlara karşı koruyun. Gece sıcaklığı 15°C'nin altına düşmemelidir.\n\nBakım: Solmuş çiçekleri ve sararan yaprakları düzenli olarak budayarak bitkinin sağlıklı görünmesini ve enerjisini yeni çiçekler üretmeye harcamasını sağlayın."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

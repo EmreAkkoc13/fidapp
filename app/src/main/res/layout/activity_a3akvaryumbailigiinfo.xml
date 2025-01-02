@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a07balik" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akvaryum Balığı Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Akvaryum balıklarının sağlıklı bir şekilde büyümesi için dengeli bir beslenme sağlamak önemlidir.\n
+Balık Yemi: Balık türüne uygun kaliteli bir balık yemi seçin. Pul, granül ya da tablet formunda yemler kullanabilirsiniz. Bazı türler için canlı veya donmuş yemler (kan kurdu, daphnia) eklemek faydalıdır.\n
+Beslenme Miktarı: Balıkları aşırı beslemek zararlı olabilir. Günlük olarak küçük porsiyonlar vermek yeterlidir. Balıklar 2-3 dakika içinde yemelidir, kalan yemler su kalitesini bozabilir.\n\n
+2. Akvaryum ve Ekipman Seçimi:\n
+Balıkların mutlu ve sağlıklı kalabilmesi için doğru akvaryum seçimi ve bakımı çok önemlidir.\n
+Akvaryum Boyutu: Balık sayısına ve türlerine göre yeterince büyük bir akvaryum seçin. Genel kural olarak her santimetre balık başına 1 litre su gerekir.\n
+Filtre: Akvaryumda bir su filtresi kullanarak suyun temiz kalmasını sağlayın. Filtre hem mekanik hem de biyolojik filtrasyon sağlamalıdır.\n
+Isıtıcı ve Termometre: Tropikal balıklar için suyun sıcaklığını uygun seviyede tutmak amacıyla bir ısıtıcı kullanın. Suyu düzenli olarak kontrol etmek için termometre bulundurun.\n
+Aydınlatma: Bitkiler ve balıkların doğal ritmi için uygun bir aydınlatma sistemi sağlayın. Aydınlatmayı günde 8-10 saat açık tutun.\n\n
+3. Su Kalitesi ve Bakımı:\n
+Balıkların sağlığı için su kalitesi büyük önem taşır.\n
+Su Değişimi: Her hafta akvaryumun yaklaşık %20’sini temiz su ile değiştirin. Değiştirdiğiniz suyun sıcaklığı akvaryumdaki su ile aynı olmalı.\n
+Su Testleri: Amonyak, nitrit ve nitrat seviyelerini düzenli olarak test edin. Bu kimyasalların yüksek seviyelerde olması balıklar için zararlıdır.\n
+Su Arıtma: Yeni su eklerken, klor ve diğer zararlı maddeleri gidermek için su düzenleyici damlalar kullanın.\n\n
+4. Akvaryum Bitkileri ve Dekorasyon:\n
+Akvaryum bitkileri ve dekorasyon, balıklar için daha doğal bir ortam sağlar.\n
+Canlı Bitkiler: Canlı bitkiler, balıkların saklanma alanı sağlar ve akvaryumun oksijen seviyesini artırır. Ancak bitki bakımı için uygun ışık ve gübre kullanmayı unutmayın.\n
+Dekorasyon: Balıkların saklanabileceği taşlar, mağaralar ve diğer dekoratif unsurlar ekleyebilirsiniz. Ancak dekorasyon malzemelerinin toksik olmamasına ve keskin kenarlarının bulunmamasına dikkat edin.\n\n
+5. Balık Türleri ve Uyum:\n
+Farklı balık türlerinin bir arada yaşayıp yaşayamayacağını göz önünde bulundurmalısınız.\n
+Uyumlu Türler: Aynı akvaryumda besleyeceğiniz balıkların uyumlu olduğundan emin olun. Bazı türler agresif olabilir, bu da diğer balıklara zarar verebilir.\n
+Yeni Balık Eklemek: Yeni balıkları akvaryuma eklemeden önce karantina tankında birkaç gün gözlemleyin. Yeni eklenen balıkların hastalık taşıyıp taşımadığı kontrol edilmelidir.\n\n
+6. Sağlık ve Hastalık Kontrolleri:\n
+Balıkların sağlığını düzenli olarak kontrol etmek önemlidir.\n
+Hastalık Belirtileri: Balıklarınızda soluk renkler, beyaz lekeler, solungaçlarda sorunlar veya yem yememe gibi belirtiler fark ederseniz, bir hastalık olabilir.\n
+Tedavi: Hastalık durumunda balıklar için özel ilaçlar kullanarak tedavi yapabilirsiniz. Karantina tankı, hasta balıkları diğerlerinden ayırmak için idealdir.\n
+Veteriner: Özellikle ciddi hastalık durumlarında bir su canlıları uzmanı veterinerle görüşmek faydalı olabilir.\n\n
+7. Akvaryum Balıklarının Davranışları:\n
+Balıkların doğal davranışlarını izleyerek onların sağlık ve mutluluk durumlarını anlayabilirsiniz.\n
+Aktivite: Balıklar normalde aktif olmalıdır. Eğer balıklarınız hareketsiz veya aşırı durgun görünüyorsa, bir sorun olabilir.\n
+Yem Yeme Davranışı: Balıklar yem yeme konusunda istekli olmalıdır. Yem yememeleri sağlık sorunlarının habercisi olabilir.\n\n
+8. Akvaryum Balıklarının Üremesi:\n
+Eğer balıklarınızın üremesini sağlamak istiyorsanız uygun koşulları yaratmalısınız.\n
+Üreme Tankı: Balık türlerine göre üreme tankı kurarak yavruların korunmasını sağlayabilirsiniz.\n
+Yumurtlama: Bazı balıklar yumurtlayarak ürer, bazıları ise canlı doğurur. Türünüze uygun üreme bilgilerini araştırarak süreci izleyebilirsiniz.\n
+Yavruların Bakımı: Yavruların büyümesi için özel yemler ve küçük saklanma alanları sağlanmalıdır.\n"
+
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

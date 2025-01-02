@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a17philodendron" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Philodendron Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Philodendronlar, zarif yaprakları ve dayanıklılıkları ile bilinen tropikal bitkilerdir. Balkonda philodendron yetiştirmek için aşağıdaki adımları izleyebilirsiniz:\n\nSaksı Seçimi: Philodendronlar, köklerin genişlemesi için yeterli alan sağlayan geniş ve iyi drene olan saksılarda en iyi şekilde yetişir. Saksının alt kısmında drenaj delikleri olmalıdır. İlerleyen dönemlerde bitkinin boyutuna göre daha büyük bir saksıya geçiş yapabilirsiniz.\n\n Toprak: Philodendronlar, iyi drene olan ve organik madde açısından zengin toprakları sever. Hafif asidik ila nötr pH (6-7) değerlerine sahip topraklar idealdir. Bahçe toprağına biraz kompost veya torf ekleyerek toprağın besin içeriğini artırabilirsiniz. Ayrıca, perlit veya vermikülit ekleyerek toprağın hava geçirgenliğini artırabilirsiniz.\n\nIşık: Philodendronlar bol ama dolaylı ışık almayı tercih eder. Günde 4-6 saat dolaylı güneş ışığı alabileceği bir yerde yetiştirilmelidir. Direkt güneş ışığı, yaprakların yanmasına neden olabilir. Eğer doğrudan güneş ışığı alabilecek bir balkonunuz yoksa, filtrelenmiş ışıkta da iyi gelişirler.\n\nSulama: Philodendronlar düzenli sulama gerektirir, ancak toprağın tamamen kurumasına izin vermek en iyisidir. Toprağın üst kısmı kurudukça sulama yapmalısınız. Aşırı sulama kök çürümesine yol açabilir, bu yüzden sulama sırasında toprağın nem seviyesini kontrol edin. Sulama suyu, oda sıcaklığında olmalıdır.\n\nNem: Philodendronlar yüksek nem seviyelerini sever. Balkonda nemi artırmak için bitkinin etrafına nemlendirici bir kap su koyabilir veya yaprakları hafifçe su püskürterek nem seviyelerini artırabilirsiniz. Ancak, yapraklarda su birikmemesine dikkat edin, çünkü bu mantar hastalıklarına neden olabilir.\n\nGübreleme: Philodendronlar düzenli gübrelemeye ihtiyaç duyar. İlkbahar ve yaz aylarında, her 4-6 haftada bir dengeli bir bitki gübresi uygulayabilirsiniz. Kış aylarında gübreleme sıklığını azaltabilirsiniz. Gübreleme sırasında ölçülü olun ve fazla gübre kullanmaktan kaçının.\n\nSıcaklık: Philodendronlar 18-24°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı hassastır ve sıcaklıkların 10°C'nin altına düşmesinden kaçınılmalıdır. Kış aylarında bitkiyi soğuk rüzgarlardan ve donlardan koruyun.\n\nHava Akışı: Philodendronlar iyi hava akışına ihtiyaç duyar. Balkonda yeterli hava akışını sağlamak için bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Havanın sıkışması, hastalıkların ve zararlıların oluşumuna neden olabilir.\n\nEk İpuçları:\nPhilodendronlar, sarkıcı ve tırmanıcı türleriyle bilinir. Tırmanıcı türler için destek direkleri veya kafesler kullanabilirsiniz.\nBitkinin yapraklarını düzenli olarak temizlemek, toz birikimini önler ve yaprakların sağlıklı kalmasını sağlar.\nPhilodendronlar köklerinden yeni fideler üretebilir. Kökleri bir suda bekleterek yeni bitkiler elde edebilirsiniz.\nBalkonda philodendron yetiştirirken, bitkinin ışık, sulama, nem ve sıcaklık ihtiyaçlarına dikkat ederek sağlıklı ve estetik bir bitki elde edebilirsiniz. Bu bitkiler, düşük bakım gerektirdikleri için balkonda güzel bir yeşil alan oluşturabilirler."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

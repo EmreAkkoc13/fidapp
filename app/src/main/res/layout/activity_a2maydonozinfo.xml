@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a12maydonoz" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Maydanoz Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Maydanoz kökleri derinliğe ihtiyaç duyar, bu nedenle en az 15-20 cm derinliğinde ve genişçe bir saksı tercih edilmelidir. Saksının alt kısmında iyi bir drenaj sistemi olduğundan emin olun, bu köklerin çürümesini önler.\n\n Toprak: Maydanoz, iyi drene olan ve besin açısından zengin toprakları tercih eder. Hafif asidik ila nötr pH (6-7) değerlerine sahip toprak ideal sonuçlar verir. Bahçe toprağına biraz torf, kompost veya perlit ekleyerek toprağın yapısını iyileştirebilirsiniz.\n\nIşık: Maydanoz, tam güneş veya hafif gölgeyi tolere edebilir, ancak en iyi sonuçlar için günde en az 4-6 saat doğrudan güneş ışığı almalıdır. Yeterli güneş ışığı, bitkinin güçlü ve sağlıklı büyümesini destekler.\n\nSulama: Maydanoz düzenli sulama gerektirir, ancak toprağın sürekli ıslak olmamasına dikkat edilmelidir. Toprağın üst kısmı kurudukça sulama yapmalısınız. Özellikle yaz aylarında sulama sıklığını artırabilirsiniz. Aşırı sulama kök çürümesine neden olabilir.\n\nGübreleme: Maydanoz, düzenli gübreleme ile daha iyi büyür. İlkbahar ve yaz aylarında, her 4-6 haftada bir dengeli bir bitki gübresi uygulayabilirsiniz. Fazla gübre bitkinin fazla büyümesine neden olabilir, bu yüzden dikkatli olunmalıdır.\n\nSıcaklık: Maydanoz, 15-20°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı dayanıklıdır, ancak aşırı soğuklardan korunmalıdır. Kış aylarında bitkinin korunması gerekebilir, özellikle sıcaklık 5°C'nin altına düştüğünde saksıyı içeri alabilirsiniz.\n\nHasat: Maydanozu düzenli olarak hasat etmek, bitkinin daha sağlıklı ve gür büyümesine yardımcı olur. Genellikle alt yapraklardan başlanarak, yapraklar kesilebilir. Üst kısımdaki yaprakları bırakmak, bitkinin devamlı olarak yeni yapraklar üretmesini sağlar."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Maydanoz Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sisteminde maydanoz için geniş kök alanı sunan modüller seçilmelidir. Bitkinin kökleri genişleyeceği için yeterli derinliğe sahip modüller kullanmalısınız. Drenaj delikleri olan modüller, kök çürümesini önler.\n\n Hidroponik Sistem: Maydanoz, hidroponik sistemlerde de yetiştirilebilir. Bu sistemde bitkiye besin çözeltileri sağlanır. Besin çözeltisinin yeterli besin maddelerini içerdiğinden emin olun ve pH seviyesini 6-7 arasında tutun.\n\nIşıklandırma: Dikey tarım sistemlerinde doğal ışık yeterli olmayabilir, bu yüzden LED bitki ışıkları kullanılabilir. Maydanoz, günde 10-12 saat ışık almalıdır. LED ışıklar, bitkinin eşit şekilde ışık almasını sağlar ve sağlıklı büyümesini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde, maydanoz için özel olarak formüle edilmiş besin çözeltileri kullanılır. Azot, fosfor ve potasyum içeren dengeli bir besin çözeltisi tercih edilmelidir. Bu, bitkinin optimum büyümesini ve sağlığını destekler.\n\nNem ve Sıcaklık Kontrolü: Dikey tarım sistemlerinde nem ve sıcaklık kontrolü önemlidir. Maydanoz, düşük nem seviyelerine dayanıklıdır, ancak ortamdaki nem seviyesini dengede tutmak gereklidir. İdeal sıcaklık 15-20°C arasında tutulmalıdır. Hava akışını sağlayarak nem seviyelerini kontrol edebilirsiniz."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a21aleovera" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Aloe Vera Yetiştirme
+"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Aloe vera için geniş ve iyi drenaj sağlayan bir saksı seçmelisiniz. Toprağın suyu iyi tahliye edebilmesi için saksının altında drenaj delikleri olmalıdır. Tercihen 15-20 cm derinliğinde geniş saksılar kullanılabilir, çünkü aloe vera geniş kök sistemine ihtiyaç duyar.\n\n Toprak: Aloe vera için kaktüs ve sukulent karışımı toprak kullanabilirsiniz. Bu topraklar, suyun hızla drenajını sağlar ve bitkinin köklerinin çürümesini önler. Alternatif olarak torf, kum ve perlit karışımını da kullanabilirsiniz.\n\nIşık: Aloe vera güneş ışığını sever. Balkonda günde 6-8 saat doğrudan güneş alabileceği bir yer seçin. Yeterli güneş ışığı alamazsa yaprakları sararabilir veya uzayabilir. Ancak çok yoğun güneş ışığına maruz kaldığında yapraklarda yanıklar oluşabileceği için öğlen saatlerinde biraz gölge sağlamak faydalı olabilir.\n\nSulama: Aloe vera fazla suya dayanıklı değildir. Toprağın tamamen kuruduğundan emin olduktan sonra sulama yapın. Haftada bir veya iki haftada bir sulama genellikle yeterlidir. Sulamayı yaparken doğrudan toprağı sulayın ve yapraklara su değmemesine özen gösterin, çünkü yaprakta kalan su çürüklere neden olabilir.\n\nSıcaklık: Aloe vera sıcak iklimleri sever ve ılıman hava koşullarında en iyi şekilde büyür. Sıcaklık 15-25°C arasında olduğunda aloe vera rahat eder. Balkonda soğuk havalardan koruyun ve sıcaklık 10°C'nin altına düştüğünde içeriye alın.\n\nGübreleme: Aloe vera için sık gübreleme gerekmez. Yılın ilkbahar ve yaz aylarında ayda bir kez seyreltilmiş sukulent veya kaktüs gübresi uygulayabilirsiniz.\n\nBakım: Solmuş yaprakları düzenli olarak budayın. Ayrıca bitkiniz fazla büyüdüğünde, yaprakların dip kısmından köklenerek yeni aloe veralar yetiştirmek için yavru bitkileri (filizleri) ayırabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Aloe Vera Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Aloe vera, fazla yer kaplamadığı için dikey tarım sistemlerinde rahatlıkla yetiştirilebilir. Dikey tarım için geniş ve sığ modüller kullanılabilir. Modüllerde suyun hızla akıp gitmesi ve köklerin nefes alabilmesi için drenaj sağlanmalıdır.\n\n Işıklandırma: Dikey tarımda yapay ışıklandırma gerekebilir. Aloe vera için LED ışıklar kullanılabilir. Günlük 12-14 saat arasında aydınlatma sağlanması bitkinin sağlıklı büyümesi için yeterli olacaktır. Ancak doğal güneş ışığına erişim varsa, bitkiyi doğrudan güneş alan bir yere yerleştirmek daha idealdir.\n\nBesin Çözeltisi: Hidroponik dikey tarım sistemlerinde aloe vera fazla besin istemez, ancak seyreltilmiş bir sukulent besin çözeltisi kullanılabilir. Düşük azotlu, fosfor ve potasyum ağırlıklı bir besin çözeltisi tercih edilmelidir. pH seviyesinin 6.0-7.0 aralığında olması bitki sağlığı için uygundur.\n\nSulama ve Nem Kontrolü: Dikey tarımda sulama sıklığı önemli bir faktördür. Aloe vera fazla suyu sevmediği için suyun kontrol edilmesi gerekir. Nem oranı düşük olduğunda sulama yapılmalı, aşırı su verilmemelidir. Toprağın kurumasına dikkat edilmeli ve sulama sistemi bu doğrultuda ayarlanmalıdır.\n\nHava Sirkülasyonu: İç mekan dikey tarım sistemlerinde hava sirkülasyonu sağlanmalıdır. Aloe vera, iyi hava akışı olan ortamları sever. Hava akışı, mantar ve küf oluşumunu önlemeye yardımcı olur.\n\nDestek Sistemleri: Aloe vera kendi başına dik durabilir, bu yüzden dikey tarım sistemlerinde ekstra destek gerektirmez. Ancak dikey sistemde fazla büyüyen yapraklar varsa, gerektiğinde budama yapabilirsiniz."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

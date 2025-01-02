@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a10kadife" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Kadife Çiçeği Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Kadife çiçeği (Tagetes) sığ kök yapısına sahip olduğundan, çok derin olmayan ancak geniş saksılar tercih edilmelidir. Drenaj deliklerine sahip bir saksı seçmek, suyun köklerde birikmesini engeller ve bitkinin sağlıklı büyümesini sağlar. 20-30 cm derinlikteki bir saksı ideal olabilir.\n\n Toprak: Kadife çiçeği, hafif ve besin açısından zengin, iyi drene olan toprakları sever. Bahçe toprağına perlit veya kum ekleyerek suyun fazla tutulmasını önleyebilirsiniz. Organik madde açısından zengin toprak kullanmak, çiçeğin daha güçlü ve sağlıklı olmasına yardımcı olur.\n\nIşık: Kadife çiçeği bol güneş ışığını sever, bu yüzden balkonda en az 6 saat doğrudan güneş alan bir yerde olmalıdır. Güneş ışığı, çiçeğin daha canlı renklerde açmasını ve daha sağlıklı büyümesini sağlar. Yarı gölgeli alanlarda da yetişebilir, ancak en iyi sonuç için güneşli bir yer tercih edilmelidir.\n\nSulama: Kadife çiçeği düzenli sulamaya ihtiyaç duyar, ancak toprağın fazla ıslak olmasını istemez. Toprağın yüzeyi kurudukça sulama yapılmalıdır. Yaz aylarında sıcak hava nedeniyle sulama sıklığını artırmak gerekebilir, ancak kış aylarında su ihtiyarı azalır. Aşırı sulama kök çürümesine neden olabilir, bu yüzden sulama öncesi toprağın üst kısmının kuruduğundan emin olun.\n\nGübreleme: Kadife çiçeği fazla gübreleme gerektirmez. İlkbahar ve yaz aylarında 4-6 haftada bir dengeli bir bitki gübresi kullanarak bitkinin gelişimini destekleyebilirsiniz. Ancak fazla gübre kullanmak, yaprakların gelişimini artırabilirken çiçeklenmeyi azaltabilir, bu nedenle ölçülü olunmalıdır.\n\nSıcaklık ve İklim: Kadife çiçeği sıcak havayı sever ve 20-30°C arası sıcaklıklarda en iyi şekilde büyür. Balkonda yetiştirirken soğuk havalarda bitkiyi içeri almak ya da korunaklı bir yerde tutmak gerekebilir. Özellikle sıcak yaz günlerinde bitkinin gölgeye alınması faydalı olabilir.\n\nBudama ve Çiçek Bakımı: Kadife çiçeği düzenli olarak solmuş çiçeklerin alınmasıyla yeni tomurcukların açmasını teşvik eder. Solmuş çiçekleri kesmek, bitkinin daha uzun süre çiçek açmasını sağlar. Ayrıca, çiçeğin daha güçlü dallar oluşturması için ilkbaharda hafif bir budama yapılabilir.\n\nHaşere Kontrolü: Kadife çiçeği, doğal olarak haşere kovucu özelliklere sahiptir, bu yüzden bahçede diğer bitkilerin yanına ekildiğinde böcekleri uzaklaştırabilir. Ancak bazen yaprak bitleri ve salyangoz gibi zararlılar görülebilir. Zararlıları önlemek için doğal böcek ilaçları kullanabilir veya yaprakları düzenli olarak kontrol edebilirsiniz."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

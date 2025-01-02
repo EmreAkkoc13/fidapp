@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_tertiary99"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a06hamster" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hamster Bakımı"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Beslenme:\n
+Hamsterlar, dengeli ve çeşitli bir diyetle beslenmelidir.\n
+Hazır Hamster Yemi: Hamsterlar için özel olarak hazırlanmış yem karışımları, onların temel besin ihtiyaçlarını karşılar. İçerisinde tahıllar, tohumlar ve bazen kurutulmuş sebzeler bulunur.\n
+Taze Sebzeler ve Meyveler: Haftada birkaç kez taze sebzeler (havuç, salatalık, brokoli) ve meyveler (elma, armut) verebilirsiniz. Ancak meyve miktarını sınırlı tutmalısınız çünkü fazla şeker hamsterlar için zararlı olabilir.\n
+Su: Hamsterların her zaman taze ve temiz suya erişimi olmalıdır. Su şişesi kullanarak suyu temiz ve hijyenik tutabilirsiniz.\n\n
+2. Yaşam Alanı ve Kafes Düzeni:\n
+Hamsterlar için uygun bir kafes düzeni onların sağlıklı ve mutlu bir yaşam sürmesi için önemlidir.\n
+Kafes Seçimi: Hamsterınız için yeterince büyük bir kafes seçin. Kafesin içerisinde koşu tekerleği, tüpler ve saklanma alanları gibi aktiviteler sağlayan oyuncaklar olmalıdır.\n
+Zemin Malzemesi: Kafesin tabanını talaş veya özel hamster altlığı ile kaplayın. Hamsterlar kazmayı severler, bu yüzden yeterli miktarda malzeme sağlamak önemlidir.\n
+Kafes Temizliği: Kafesin düzenli olarak temizlenmesi, hamsterınızın sağlığı için şarttır. Haftada en az bir kez tüm kafesi temizlemelisiniz.\n\n
+3. Tüy ve Hijyen Bakımı:\n
+Hamsterlar genellikle kendilerini temizler, ancak bazı durumlarda yardımcı olabilirsiniz.\n
+Tüy Bakımı: Hamsterlar, tüylerini kendileri temizler. Uzun tüylü hamsterlar için haftada birkaç kez yumuşak bir fırça ile tarama yapılabilir.\n
+Kum Banyosu: Hamsterlar için özel kum banyoları sağlayarak, onların doğal temizlik ihtiyaçlarını karşılayabilirsiniz.\n\n
+4. Sağlık ve Veteriner Kontrolleri:\n
+Hamsterların sağlığını korumak için dikkat edilmesi gereken birkaç temel unsur vardır.\n
+İshal: Hamsterlarda ishal, genellikle yanlış beslenmeden kaynaklanır. Taze sebzeleri ve meyveleri fazla verirseniz ishal riski artabilir. Böyle bir durumda veterinerinize başvurun.\n
+Solunum Yolu Problemleri: Hırıltı, burun akıntısı veya gözlerde kızarıklık gibi belirtiler solunum yolu enfeksiyonlarına işaret edebilir. Veterinerden yardım almalısınız.\n
+Diş Problemleri: Hamsterların dişleri sürekli uzar. Onlara dişlerini törpüleyebileceği sert yiyecekler veya diş taşı gibi özel oyuncaklar sunmalısınız.\n\n
+5. Sosyal İhtiyaçlar ve İlgi:\n
+Hamsterlar yalnız yaşamayı tercih eden hayvanlardır, ancak yine de ilgiye ihtiyaç duyarlar.\n
+Etkileşim: Hamsterınızla nazik bir şekilde oynayarak, onu elinize alarak veya ödül mamaları ile ona ilgi gösterebilirsiniz. Ancak hamsterlar gün içinde genellikle uykuda olur, bu yüzden akşamları onlarla etkileşim kurmak daha iyi olacaktır.\n
+Diğer Hamsterlarla Yaşam: Çoğu hamster yalnız yaşamayı sever ve başka hamsterlarla agresifleşebilir. Bu nedenle hamsterlar genellikle tek başına beslenmelidir.\n\n
+6. Uyku Düzeni:\n
+Hamsterlar gece aktiftir ve gündüzleri uyur. Bu nedenle onların doğal uyku düzenine saygı duymalısınız.\n
+Sessiz Bir Ortam: Hamsterınızın kafesini sessiz bir ortamda tutarak gündüz rahatça uyumasını sağlayın. Geceleri ise hareketli olacakları için onları rahatsız etmeyin.\n\n
+7. Hamsterın Gözlemi ve Sorunlar:\n
+Hamsterlarınızın davranışlarını gözlemleyerek sağlık durumlarını anlayabilirsiniz.\n
+Aşırı Uyuma: Eğer hamsterınız normalden fazla uyuyorsa, bu stres ya da sağlık sorunlarına işaret edebilir. Veterinerle görüşmek faydalı olacaktır.\n
+İştah Kaybı: Hamsterınızın yeme alışkanlıklarında ani bir değişiklik fark ederseniz, bir sağlık sorunu olup olmadığını kontrol ettirmeniz gerekebilir.\n
+Hareket Azalması: Hamsterlar genellikle çok hareketli hayvanlardır. Eğer hamsterınızda belirgin bir hareket azalması varsa, veteriner kontrolü gerekebilir.\n"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a15papatya" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Papatya Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Papatyalar (Matricaria chamomilla), kolay yetiştirilebilen ve güzel çiçekler açan bitkilerdir. Balkonda papatya yetiştirmek için aşağıdaki adımları izleyebilirsiniz:\n\n Saksı Seçimi: Papatyalar, derinliği 20-30 cm olan genişçe bir saksıda iyi büyür. Saksının alt kısmında drenaj delikleri olmalıdır, bu fazla suyun tahliye edilmesini sağlar ve kök çürümesini önler.\n\nToprak: Papatyalar, iyi drene olan ve hafif asidik ila nötr pH (6-7) değerlerine sahip toprakları tercih eder. Bahçe toprağına biraz kompost veya perlit ekleyerek toprağın besin içeriğini artırabilirsiniz. Toprağın iyi hava alması, papatyaların sağlıklı büyümesini destekler.\n\nIşık: Papatyalar bol güneş ışığını sever. Günde en az 6-8 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, bitkinin gür ve sağlıklı büyümesini teşvik eder ve bol çiçek açmasını sağlar.\n\nSulama: Papatyalar düzenli sulama gerektirir, ancak toprağın sürekli nemli olmamasına dikkat edilmelidir. Toprağın üst kısmı kurudukça sulama yapmalısınız. Aşırı sulama kök çürümesine neden olabilir, bu yüzden sulama sırasında toprağın nem seviyesini kontrol edin.\n\nGübreleme: Papatyalar fazla gübrelemeye ihtiyaç duymaz. İlkbahar ve yaz aylarında, her 6-8 haftada bir dengeli bir bitki gübresi kullanabilirsiniz. Fazla gübre, bitkinin fazla büyümesine neden olabilir, bu yüzden gübrelemede ölçülü olunmalıdır.\n\nSıcaklık: Papatyalar, 15-25°C sıcaklık aralığında iyi gelişir. Soğuk havalara dayanıklıdır ve hafif donlara karşı tolerans gösterebilir. Kış aylarında, aşırı soğuklardan korunması gerekebilir.\n\nBudama: Papatyaların düzenli olarak budanması, bitkinin sağlıklı ve kompakt kalmasına yardımcı olur. Solmuş çiçekleri düzenli olarak kesmek, yeni çiçeklerin oluşumunu teşvik eder ve bitkinin genel görünümünü iyileştirir.\n\nHava Akışı: Papatyalar iyi hava akışına ihtiyaç duyar. Balkonda yeterli hava akışını sağlamak için bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Havanın sıkışması mantar hastalıklarına yol açabilir.\n\nEk İpuçları:\nPapatyaların tohumları doğrudan toprağa ekilebilir. Tohumlar toprağa ince bir şekilde serpilir ve üzerini hafifçe kapatılır. Çimlenme süresi 2-3 hafta sürebilir.\nPapatyalar, çeşitli zararlılara karşı dayanıklıdır, ancak yapraklarda mantar hastalıkları gelişebilir. Bu tür sorunları önlemek için bitkiyi temiz ve kuru tutmaya özen gösterin.\nBalkonda papatya yetiştirirken, bitkinin ihtiyaçlarına dikkat ederek ve düzenli bakım yaparak güzel ve sağlıklı papatyalar elde edebilirsiniz. Güneş ışığı, uygun sulama ve toprak koşulları ile papatyalarınız bol çiçek açacaktır."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

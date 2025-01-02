@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a18sardunya" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Sardunya (Pelargonium) Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Sardunya (Pelargonium), renkli çiçekleri ve hoş kokusuyla bilinen, balkonda yetiştirilmesi kolay bir bitkidir. İşte balkonda sardunya yetiştirmek için izleyebileceğiniz adımlar:\n\n Saksı Seçimi: Sardunyalar, genişçe ve derinliği yeterli olan saksılarda iyi gelişir. Saksının altında drenaj delikleri bulunmalıdır, bu suyun saksının altından çıkmasını sağlar ve kök çürümesini önler. Genellikle 20-30 cm çapında saksılar uygundur.\n\nToprak: Sardunyalar, iyi drene olan ve hafif asidik ila nötr pH (6-7) değerlerine sahip toprakları tercih eder. Bahçe toprağına biraz kum veya perlit ekleyerek drenaj özelliklerini artırabilirsiniz. Ayrıca, toprağın besin açısından zengin olması bitkinin sağlıklı gelişimini destekler.\n\nIşık: Sardunyalar bol güneş ışığı almayı sever. Günde en az 6-8 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, sardunyaların bol çiçek açmasını ve sağlıklı büyümesini sağlar. Eğer doğrudan güneş ışığı alabilecek bir balkonunuz yoksa, güçlü yapay ışık kaynakları kullanabilirsiniz.\n\nSulama: Sardunyalar düzenli sulama gerektirir, ancak toprağın üst kısmının tamamen kurumasına izin vermelisiniz. Aşırı sulama kök çürümesine yol açabilir, bu yüzden sulama sırasında toprağın nem seviyesini kontrol edin. Sulama suyunun oda sıcaklığında olması en iyisidir.\n\nGübreleme: Sardunyalar, düzenli gübrelemeye ihtiyaç duyar. İlkbahar ve yaz aylarında, her 2-4 haftada bir dengeli bir bitki gübresi uygulayabilirsiniz. Kış aylarında gübreleme sıklığını azaltabilirsiniz. Fazla gübre kullanmaktan kaçının, bu bitkinin sağlığını olumsuz etkileyebilir.\n\nSıcaklık: Sardunyalar, 15-25°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı hassastır ve sıcaklıkların 5°C'nin altına düşmesinden kaçınılmalıdır. Kış aylarında bitkiyi soğuk rüzgarlardan ve donlardan koruyun.\n\nHava Akışı: Sardunyalar iyi hava akışını sever. Balkonda yeterli hava akışını sağlamak için bitkinin etrafındaki alanın iyi havalandırıldığından emin olun. Bu, hastalıkların ve zararlılarının oluşumunu önlemeye yardımcı olur.\n\nBudama: Sardunyaların düzenli olarak budanması, bitkinin şeklini korumasına ve daha fazla çiçek açmasına yardımcı olur. Solmuş çiçekleri ve ölü yaprakları temizleyerek bitkinin sağlıklı görünmesini sağlayabilirsiniz.\n\nEk İpuçları:\nSardunyalar, kök bölgesinde aşırı nemden hoşlanmaz, bu yüzden saksının altındaki suyun birikmesini önleyin.\nBitkinin etrafına yerleştirilen taşlar veya çakıl tabakaları, toprağın nemini korumaya yardımcı olabilir.\nSardunyaların hastalıklara ve zararlılara karşı dayanıklılığı genellikle iyidir, ancak yapraklarda mantar hastalıkları veya zararlılar oluşabilir. Bu tür sorunları önlemek için bitkiyi düzenli olarak kontrol edin.\nBalkonda sardunya yetiştirirken, bitkinin güneş ışığı, sulama, toprak ve sıcaklık ihtiyaçlarına dikkat ederek sağlıklı ve güzel bir bitki elde edebilirsiniz. Sardunyalar, parlak çiçekleri ve hoş kokuları ile balkonunuza renk ve canlılık katacaktır."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

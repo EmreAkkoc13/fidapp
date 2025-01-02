@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a13nane" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Nane Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Nane, yayılma eğiliminde olan bir bitkidir, bu nedenle geniş bir saksı tercih edilmelidir. En az 20 cm derinliğinde ve geniş bir saksı, bitkinin köklerinin yayılmasını sağlar. Saksının alt kısmında drenaj delikleri bulunmalıdır.\n\n Toprak: Nane, iyi drene olan ve besin açısından zengin toprakları sever. Hafif asidik ila nötr pH (6-7) değerlerine sahip toprak ideal sonuçlar verir. Bahçe toprağına biraz kompost veya torf ekleyerek toprağın verimliliğini artırabilirsiniz.\n\nIşık: Nane, bol güneş ışığı almayı sever, ancak yarı gölgeli alanlarda da yetişebilir. Günde en az 4-6 saat doğrudan güneş ışığı alabileceği bir yerde yetiştirilmelidir. Güneş ışığı, nane yapraklarının daha aromatik olmasını sağlar.\n\nSulama: Nane düzenli sulama gerektirir ve toprağın sürekli nemli olmasını tercih eder. Toprağın üst kısmı kurudukça sulama yapılmalıdır. Aşırı sulama kök çürümesine neden olabilir, bu yüzden sulama yaparken toprağın nem seviyesini kontrol edin.\n\nGübreleme: Nane, fazla gübrelemeye ihtiyaç duymaz. İlkbahar ve yaz aylarında, her 4-6 haftada bir dengeli bir bitki gübresi uygulayabilirsiniz. Fazla gübre, bitkinin fazla büyümesine ve düşük aromalı yapraklara neden olabilir.\n\nSıcaklık: Nane, 15-25°C sıcaklık aralığında iyi gelişir. Soğuk havalara karşı dayanıklıdır, ancak aşırı soğuklardan korunmalıdır. Kış aylarında saksıyı korunaklı bir yere almak gerekebilir, özellikle sıcaklık 5°C'nin altına düştüğünde.\n\nHasat: Nane yapraklarını düzenli olarak hasat edebilirsiniz. Genellikle bitkinin üst kısmından yaprakları toplayarak bitkinin daha fazla yaprak üretmesini teşvik edebilirsiniz. Nane yapraklarını taze kullanabilir veya kurutabilirsiniz."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Tarım Sisteminde Nane Yetiştirme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Modül Seçimi: Dikey tarım sisteminde nane için geniş kök alanı sunan modüller seçilmelidir. Nane bitkisi kökleri yayılma eğilimindedir, bu yüzden köklerin rahatça büyüyebileceği modüller tercih edilmelidir. Drenaj delikleri olan modüller kullanılmalıdır.\n\n Hidroponik Sistem: Nane, hidroponik sistemlerde de yetiştirilebilir. Bu sistemde, bitkiye gerekli besin maddeleri içeren bir besin çözeltisi sağlanır. Besin çözeltisinin pH seviyesinin 6-7 arasında tutulması önemlidir. Ayrıca, besin çözeltisinin yeterli besin maddelerini içerdiğinden emin olun.\n\nIşıklandırma: Dikey tarım sistemlerinde doğal ışık yetersizse, LED bitki ışıkları kullanılabilir. Nane, günde 10-12 saat ışık almalıdır. LED ışıklar, bitkinin her tarafının eşit şekilde ışık almasını sağlar ve sağlıklı büyümesini destekler.\n\nBesin Çözeltisi: Hidroponik sistemlerde, nane için özel olarak formüle edilmiş besin çözeltileri kullanılmalıdır. Azot, fosfor ve potasyum içeren dengeli bir besin çözeltisi tercih edilmelidir. Bu, bitkinin optimum büyümesini ve sağlığını destekler.\n\nNem ve Sıcaklık Kontrolü: Dikey tarım sistemlerinde nem ve sıcaklık kontrolü önemlidir. Nane, yüksek nem seviyelerine dayanıklıdır, ancak nem oranını dengede tutmak gereklidir. İdeal sıcaklık 15-25°C arasında tutulmalıdır. Hava akışını sağlayarak nem seviyelerini kontrol edebilirsiniz.\n\nEk İpuçları:\nNane tohumları doğrudan toprağa ekilebilir veya fide olarak yetiştirilebilir. Tohumları ekmeden önce toprağın hafif nemli olduğundan emin olun.\nNane, yayılma eğiliminde olduğu için saksının köşelerine veya kenarlarına yayılan bir yapı sergileyebilir. Bu, saksı veya modül seçerken dikkate alınmalıdır.\nNane, balkonda ve dikey tarım sistemlerinde uygun bakım ve ilgi ile sağlıklı bir şekilde yetiştirilebilir. Bol güneş ışığı, düzenli sulama ve doğru besin desteği ile taze ve aromatik nane yaprakları elde edebilirsiniz."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

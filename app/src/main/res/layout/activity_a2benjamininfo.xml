@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a23benjamin" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Benjamin (Ficus Benjamina) Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Benjamin, zamanla büyüyen ve genişleyen bir bitkidir. Bu yüzden geniş ve derin bir saksı seçmek önemlidir. İyi drenaj sağlayan bir saksı tercih edin. Saksının altında fazla suyun tahliye edilmesi için delikler olmalıdır. Her 2-3 yılda bir daha büyük bir saksıya geçmek gerekebilir.\n\n Toprak: Benjamin için besin açısından zengin, hafif ve iyi drene olan toprak tercih edilmelidir. Torf, perlit ve bahçe toprağı karışımı kullanabilirsiniz. Hafif asidik ya da nötr bir toprak bitkinin gelişimi için idealdir.\n\nIşık: Benjamin bol dolaylı ışık alan ortamları sever. Balkonda, doğrudan güneş almayan ama bol ışık alan bir yere yerleştirilmelidir. Güneş ışığı doğrudan yapraklara vurursa yapraklar yanabilir, bu yüzden öğle saatlerinde gölge bir alanda olmasına dikkat edin. Aynı zamanda, ışık eksikliği yaprak dökülmesine neden olabilir.\n\nSulama: Benjamin fazla suyu sevmez. Toprak tamamen kuruduğunda sulama yapılmalıdır. Sularken saksının altından fazla suyun süzülmesine dikkat edin. Suyun saksıda birikmemesi için fazla sulamaktan kaçının, çünkü kök çürümesine neden olabilir. Nemli ortamı sevse de sürekli nemli toprak istemez.\n\nNem: Benjamin yüksek nemi sever. Eğer balkonunuzda hava çok kuruysa, bitkinin etrafındaki nem oranını artırmak için yapraklarına su püskürtebilirsiniz. Yazın sıcak günlerde bitkiyi nemli tutmak bitkinin sağlıklı kalmasını sağlar.\n\nGübreleme: İlkbahar ve yaz aylarında 2-3 haftada bir sıvı bitki gübresi kullanarak Benjamin’i besleyebilirsiniz. Dengeli bir gübre (azot, fosfor, potasyum oranları dengeli olan) bitkinin sağlıklı büyümesini teşvik eder. Sonbahar ve kış aylarında gübreleme sıklığını azaltın.\n\nSıcaklık: Benjamin 18-25°C arasındaki sıcaklıkları sever. Soğuk havaya ve ani sıcaklık değişimlerine duyarlıdır. Kışın sıcaklık 10°C’nin altına düşerse bitkiyi içeriye almalısınız. Ayrıca rüzgâra karşı hassas olduğu için bitkiyi cereyanlardan korumak önemlidir.\n\nBakım: Benjamin bazen yaprak döker, bu doğal bir süreçtir. Ancak aşırı yaprak dökülmesi ışık veya sulama ile ilgili bir sorun olduğunun göstergesi olabilir. Bitkiyi düzenli olarak kontrol edin. Ayrıca bitki çok fazla büyüdüğünde budama yaparak şeklini koruyabilirsiniz."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

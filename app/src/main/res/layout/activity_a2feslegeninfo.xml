@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a27fesleen" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Fesleğen Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Fesleğen küçük ama geniş kökler geliştiren bir bitki olduğu için en az 15-20 cm derinliğinde, drenaj deliklerine sahip bir saksı kullanmak önemlidir. Bu, köklerin fazla suya maruz kalmadan gelişmesini sağlar. Ayrıca, fesleğen geniş alanı sevdiği için fazla köklü büyüyen fesleğenleri daha büyük saksılara geçirebilirsiniz.\n\n Toprak: Fesleğen hafif, iyi drene olan ve besleyici toprakları sever. Torf, perlit ve bahçe toprağı karışımı kullanabilirsiniz. Toprak fazla yoğun olmamalı, köklerin rahat nefes almasını sağlamalıdır. Ayrıca, organik madde açısından zengin bir toprak tercih ederek daha güçlü ve aromatik bir fesleğen yetiştirebilirsiniz.\n\nIşık: Fesleğen bol güneş ışığını sever. Balkonda en az 6 saat doğrudan güneş alabileceği bir yer tercih edilmelidir. Güneş eksikliği fesleğenin zayıf ve ince olmasına neden olabilir. Güneş ışığı fesleğenin aromatik yağlarının artmasını sağlar, bu da daha güçlü bir koku ve tat sağlar.\n\nSulama: Fesleğen düzenli sulama gerektiren bir bitkidir. Toprağın üst kısmı kuruduğunda sulama yapılmalıdır. Ancak fazla sulamaktan kaçının, çünkü bu kök çürümesine yol açabilir. Özellikle sıcak havalarda sulama sıklığını artırabilirsiniz, ancak toprak sürekli nemli kalmamalıdır. Saksının altındaki fazla suyun dışarı çıkması için iyi bir drenaj sistemi olmalıdır.\n\nSıcaklık: Fesleğen sıcağı seven bir bitkidir ve en iyi 18-30°C arasında büyür. Soğuk havalardan korunması önemlidir, çünkü fesleğen soğuğa karşı oldukça hassastır. Sıcaklık 10°C'nin altına düştüğünde bitkiyi içeri almak ya da korunaklı bir yerde tutmak gerekebilir.\n\nGübreleme: Fesleğeni beslemek için 2-3 haftada bir sıvı bitki gübresi kullanabilirsiniz. Azot açısından zengin bir gübre, fesleğenin daha gür yapraklar vermesine yardımcı olur. Ancak gübrelemeyi aşırıya kaçırmamaya dikkat edin, aksi halde bitki fazla büyüyüp aromasını kaybedebilir.\n\nHasat: Fesleğen yapraklarını düzenli olarak hasat etmek, bitkinin daha güçlü ve gür büyümesine yardımcı olur. En alttaki yapraklardan başlayarak yaprakları koparabilir ve üst kısmı budayabilirsiniz. Bu sayede bitki daha fazla dal vererek daha geniş bir alanı kaplayacaktır. Hasat ederken her dalın 3-4 yaprağını bırakmak, büyümeyi teşvik eder.\n\nBudama: Fesleğen dallandıkça, daha fazla yaprak üretir. Bitkinin uçlarını keserek (tepe budaması) dallanmasını teşvik edebilir ve daha dolgun bir bitki elde edebilirsiniz. Ayrıca sararmış veya ölmüş yaprakları düzenli olarak temizlemek bitkinin sağlıklı kalmasına yardımcı olur.\n\nEk İpucu: Fesleğen, sıcak hava sever ama aşırı sıcaklarda gölgelik bir alana alınması gerekebilir. Ayrıca fesleğenin çevresine nane veya kekik gibi bitkiler ekleyerek böceklerden koruyabilirsiniz.\n\nFesleğen, balkonda kolayca yetiştirilebilen ve hem mutfakta hem de bitki çayı yapımında kullanılan aromatik bir bitkidir. Doğru bakım ve ilgi ile sürekli yaprak hasadı yapabilirsiniz."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

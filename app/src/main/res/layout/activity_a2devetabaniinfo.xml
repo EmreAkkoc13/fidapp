@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1biberinfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/a26devetaban" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Balkonda Deve Tabanı (Monstera) Yetiştirme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Saksı Seçimi: Deve tabanı bitkisi geniş köklere sahip olduğu için büyük ve derin bir saksıya ihtiyaç duyar. Drenaj deliklerine sahip bir saksı kullanmak önemlidir, çünkü deve tabanı suyun köklerde birikmesine karşı hassastır. Zamanla bitki büyüdükçe daha büyük bir saksıya geçirilebilir.\n\n Toprak: Deve tabanı için ideal toprak hafif, nem tutabilen ve iyi drene olan bir karışımdır. Bahçe toprağına perlit veya torf ekleyerek suyun fazla birikmesini engelleyebilirsiniz. Bu bitki, hafif asidik pH'a sahip, besleyici bir toprakta sağlıklı şekilde gelişir.\n\nIşık: Deve tabanı dolaylı ışığı sever. Balkonda doğrudan güneş ışığına maruz kalmak yapraklarının yanmasına neden olabilir, bu yüzden gölgeli ya da yarı gölgeli bir yerde tutulması en iyisidir. Aydınlık ama doğrudan güneş almayan bir konum idealdir. Bitkiniz yeterli ışık almadığında yaprakları küçük kalabilir ve delikli yapraklar oluşmayabilir.\n\nSulama: Deve tabanı, nemli ama aşırı ıslak olmayan toprağı tercih eder. Toprağın üst kısmı kuruduğunda sulama yapılmalıdır. Yaz aylarında sulama sıklığı artabilir, ancak kış aylarında daha az suya ihtiyaç duyar. Saksı altındaki fazla suyu boşaltarak kök çürümesini engelleyebilirsiniz.\n\nNem: Deve tabanı yüksek nem oranını sever. Eğer bulunduğunuz bölgedeki hava çok kuruysa, yapraklarına ara sıra su püskürterek bitkinin nem ihtiyacını karşılayabilirsiniz. Ayrıca bitkiyi su dolu bir tepsinin üzerine yerleştirerek etrafındaki havanın nemli kalmasını sağlayabilirsiniz.\n\nSıcaklık: Balkonda deve tabanı yetiştirirken 18-27°C arası sıcaklıklar idealdir. Bitki soğuk hava akımlarına karşı duyarlıdır, bu yüzden kış aylarında sıcaklık 10°C’nin altına düştüğünde bitkiyi içeri almanız gerekebilir. Ani sıcaklık değişikliklerinden koruyun.\n\nGübreleme: Deve tabanı, ilkbahar ve yaz aylarında düzenli olarak gübrelenmelidir. 4-6 haftada bir sıvı bitki gübresi kullanarak bitkinizi besleyebilirsiniz. Dengeli bir gübre bitkinin sağlıklı büyümesini ve canlı yapraklar vermesini sağlar.\n\nDestek Sağlama: Deve tabanı sarmaşık benzeri bir yapıya sahip olduğu için büyüdükçe desteklenmeye ihtiyaç duyar. Bir bambu çubuk veya bitki desteği kullanarak bitkinizin dik durmasını sağlayabilirsiniz. Böylece bitki büyüdükçe daha geniş yapraklar oluşturur.\n\nYaprak Temizliği: Yaprakları büyük olduğu için tozlanabilir. Nemli bir bezle düzenli olarak yaprakları silerek bitkinin nefes almasını sağlayabilirsiniz. Bu, aynı zamanda bitkinin daha canlı görünmesine yardımcı olur.\n\nEk İpucu: Deve tabanı, yapraklarında zamanla karakteristik delikler oluşturur. Bu delikli yapraklar bitkinin olgunlaştığını gösterir. Bitkinizin daha hızlı büyümesini ve yapraklarının genişlemesini istiyorsanız, ona yeterli alan ve ışık sağladığınızdan emin olun.\n\nDeve tabanı, balkonda uygun koşullarda sağlıklı bir şekilde yetiştirilebilir ve ortamınıza tropikal bir hava katar."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
